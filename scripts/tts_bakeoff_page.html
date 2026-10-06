@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice Bake-off</title>
+<!-- Template for tts_bakeoff/index.html; scripts/tts_bakeoff.py fills in the rows and the reveal map below. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --ground: #eef1f0;
+  --surface: #ffffff;
+  --ink: #18201d;
+  --muted: #5a6662;
+  --line: #d3dbd8;
+  --accent: #1d6a86;
+  --accent-ink: #ffffff;
+  --accent-soft: #e2eff4;
+  --now: #6d5a2e;
+  --now-soft: #f3ecdc;
+  --warn: #9a5b12;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "IBM Plex Sans", -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #101514; --surface: #182120; --ink: #e3e9e7; --muted: #95a39f; --line: #2c3836;
+    --accent: #6cb6d1; --accent-ink: #0b1a20; --accent-soft: #1b3440; --now: #d8c08a; --now-soft: #2d2718; --warn: #e0a55a;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #101514; --surface: #182120; --ink: #e3e9e7; --muted: #95a39f; --line: #2c3836;
+  --accent: #6cb6d1; --accent-ink: #0b1a20; --accent-soft: #1b3440; --now: #d8c08a; --now-soft: #2d2718; --warn: #e0a55a;
+}
+* { box-sizing: border-box; }
+body { background: var(--ground); color: var(--ink); font: 15px/1.5 var(--body); margin: 0; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; padding-block: 28px 64px; }
+header { display: grid; gap: 10px; margin-bottom: 20px; }
+h1 { font: 700 clamp(26px, 5vw, 36px)/1.1 var(--display); letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+.lede { color: var(--muted); max-width: 64ch; margin: 0; }
+.bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+       background: var(--ground); padding-block: 10px; border-bottom: 1px solid var(--line); margin-bottom: 18px; }
+.bar .count { font: 500 13px var(--mono); color: var(--muted); margin-right: auto; }
+button { font: inherit; color: inherit; cursor: pointer; }
+.btn { min-height: 44px; padding: 0 16px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); font-weight: 600; }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.btn:focus-visible, .play:focus-visible, .chip:focus-visible, textarea:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.row { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 16px; margin-bottom: 16px; display: grid; gap: 14px; }
+.row-head { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; align-items: baseline; }
+.num { font: 700 22px/1 var(--display); color: var(--muted); font-variant-numeric: tabular-nums; }
+.line { font: 600 18px/1.35 var(--body); margin: 0; }
+.meta { grid-column: 2; display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 13px; color: var(--muted); }
+.meta code { font: 12px var(--mono); }
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.col { border: 1px solid var(--line); border-radius: 10px; padding: 10px; display: grid; gap: 8px; align-content: start; }
+.col.now { background: var(--now-soft); border-color: transparent; }
+.col h3 { margin: 0; font: 700 15px var(--display); display: flex; justify-content: space-between; gap: 6px; align-items: baseline; }
+.col.now h3 { color: var(--now); }
+.who { font: 500 11px/1.3 var(--mono); color: var(--accent); text-align: right; }
+.takes { display: grid; gap: 6px; }
+.play { display: flex; align-items: center; gap: 10px; min-height: 44px; width: 100%; padding: 0 10px; border-radius: 8px;
+        border: 1px solid var(--line); background: var(--surface); text-align: left; }
+.play .ico { width: 0; height: 0; border-style: solid; border-width: 7px 0 7px 11px; border-color: transparent transparent transparent currentColor; flex: none; }
+.play.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.play.on .ico { width: 11px; height: 14px; border: 0; border-left: 4px solid currentColor; border-right: 4px solid currentColor; }
+.play .t { font-weight: 600; }
+.play .d { margin-left: auto; font: 12px var(--mono); opacity: .8; font-variant-numeric: tabular-nums; }
+.flag { font: 11px var(--mono); color: var(--warn); }
+.judge { display: grid; gap: 10px; border-top: 1px dashed var(--line); padding-top: 12px; }
+.lbl { font: 600 11px var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { min-height: 40px; min-width: 44px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font: 500 14px var(--mono); }
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.chip.none[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.judge-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+textarea { width: 100%; min-height: 44px; font: inherit; color: var(--ink); background: var(--ground); border: 1px solid var(--line); border-radius: 8px; padding: 10px; resize: vertical; }
+#out { width: 100%; min-height: 160px; font: 13px/1.45 var(--mono); }
+.outbox { display: grid; gap: 8px; }
+.toast { font-size: 13px; color: var(--accent); min-height: 1.2em; }
+@media (max-width: 640px) {
+  .judge-grid { grid-template-columns: 1fr; }
+  .cols { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 380px) { .cols { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: no-preference) { .play, .chip { transition: background-color .12s, color .12s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Voice bake-off</h1>
+    <p class="lede">Eight lines from the game, each rendered by several local voice models. The columns are anonymous and shuffled on every line, so you can't learn which model is which. Headphones on. Play "Now" first, then the takes. On each line, pick the best take (or "none good enough"), rate how believable it is from 1 to 5, and add a note if you like. Then press <strong>Copy my picks</strong> and paste the text back to Claude.</p>
+  </header>
+  <div class="bar">
+    <span class="count" id="count">0 / 0 picked</span>
+    <button class="btn" id="reveal" type="button" aria-pressed="false">Reveal models</button>
+    <button class="btn primary" id="copy" type="button">Copy my picks</button>
+  </div>
+  <main id="rows"></main>
+  <section class="outbox" id="outbox" hidden>
+    <label class="lbl" for="out">Your picks (copied — or select and copy by hand)</label>
+    <textarea id="out" readonly></textarea>
+  </section>
+  <p class="toast" id="toast" role="status"></p>
+</div>
+
+<script>
+(function () {
+  var ROWS = __ROWS__;
+  var REVEAL = JSON.parse(atob(__REVEAL__));
+  var KEY = "his-voice-bakeoff-v1";
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { state = {}; }
+  function persist() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+  function st(k) { return state[k] || (state[k] = { pick: "", score: 0, note: "" }); }
+
+  var audio = new Audio(), playing = null;
+  audio.preload = "none";
+  audio.addEventListener("ended", stop);
+  function stop() { if (playing) playing.classList.remove("on"); playing = null; }
+  function play(btn, url) {
+    if (playing === btn) { audio.pause(); stop(); return; }
+    stop(); audio.src = url; audio.currentTime = 0;
+    var p = audio.play(); if (p && p.catch) p.catch(function () { stop(); });
+    playing = btn; btn.classList.add("on");
+  }
+
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function playBtn(label, url, sec) {
+    var b = el("button", "play"); b.type = "button";
+    b.appendChild(el("span", "ico")); b.appendChild(el("span", "t", label)); b.appendChild(el("span", "d", sec.toFixed(1) + " s"));
+    b.setAttribute("aria-label", "Play " + label);
+    b.addEventListener("click", function () { play(b, url); });
+    return b;
+  }
+
+  var root = document.getElementById("rows");
+  ROWS.forEach(function (r) {
+    var s = st(r.key);
+    var row = el("section", "row"); row.id = "line-" + r.n;
+    var head = el("div", "row-head");
+    head.appendChild(el("span", "num", String(r.n)));
+    head.appendChild(el("p", "line", "“" + r.text + "”"));
+    var meta = el("div", "meta"); meta.appendChild(el("span", null, r.tests)); var c = el("code", null, r.key); meta.appendChild(c);
+    head.appendChild(meta); row.appendChild(head);
+
+    var cols = el("div", "cols");
+    if (r.now) {
+      var nc = el("div", "col now"); var h = el("h3"); h.appendChild(el("span", null, "Now (placeholder)")); nc.appendChild(h);
+      var nt = el("div", "takes"); nt.appendChild(playBtn("Now", r.now, r.nowSec || 0)); nc.appendChild(nt); cols.appendChild(nc);
+    }
+    var options = [];
+    r.cols.forEach(function (col) {
+      var cc = el("div", "col"); var h = el("h3"); h.appendChild(el("span", null, col.letter));
+      var who = el("span", "who"); who.dataset.who = REVEAL[r.key][col.letter]; h.appendChild(who); cc.appendChild(h);
+      var tk = el("div", "takes");
+      col.takes.forEach(function (t, i) {
+        var id = col.letter + (i + 1); options.push(id);
+        tk.appendChild(playBtn(id, t.url, t.sec));
+        if (t.flag) tk.appendChild(el("span", "flag", id + ": transcript didn't fully match"));
+      });
+      cc.appendChild(tk); cols.appendChild(cc);
+    });
+    row.appendChild(cols);
+
+    var judge = el("div", "judge");
+    var pl = el("span", "lbl", "Best take"); judge.appendChild(pl);
+    var pc = el("div", "chips"); pc.setAttribute("role", "group"); pc.setAttribute("aria-label", "Best take for line " + r.n);
+    options.concat(["none"]).forEach(function (o) {
+      var b = el("button", "chip" + (o === "none" ? " none" : ""), o === "none" ? "None good enough" : o); b.type = "button";
+      b.id = "pick-" + r.n + "-" + o;
+      b.setAttribute("aria-pressed", String(s.pick === o));
+      b.addEventListener("click", function () {
+        s.pick = s.pick === o ? "" : o; persist();
+        pc.querySelectorAll(".chip").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+        if (s.pick) b.setAttribute("aria-pressed", "true");
+        updateCount();
+      });
+      pc.appendChild(b);
+    });
+    judge.appendChild(pc);
+    var g = el("div", "judge-grid");
+    var sc = el("div"); sc.appendChild(el("span", "lbl", "Believable? 1–5"));
+    var scc = el("div", "chips"); scc.setAttribute("role", "group"); scc.setAttribute("aria-label", "Believable score for line " + r.n);
+    [1, 2, 3, 4, 5].forEach(function (n) {
+      var b = el("button", "chip", String(n)); b.type = "button"; b.id = "score-" + r.n + "-" + n;
+      b.setAttribute("aria-pressed", String(s.score === n));
+      b.addEventListener("click", function () {
+        s.score = s.score === n ? 0 : n; persist();
+        scc.querySelectorAll(".chip").forEach(function (x) { x.setAttribute("aria-pressed", "false"); });
+        if (s.score) b.setAttribute("aria-pressed", "true");
+      });
+      scc.appendChild(b);
+    });
+    sc.appendChild(scc); g.appendChild(sc);
+    var nw = el("div"); var nl = el("label", "lbl", "Note"); nl.htmlFor = "note-" + r.n; nw.appendChild(nl);
+    var ta = el("textarea"); ta.id = "note-" + r.n; ta.rows = 2; ta.placeholder = "e.g. Y2 good but too slow"; ta.value = s.note || "";
+    ta.addEventListener("input", function () { s.note = ta.value; persist(); });
+    nw.appendChild(ta); g.appendChild(nw);
+    judge.appendChild(g); row.appendChild(judge);
+    root.appendChild(row);
+  });
+
+  function updateCount() {
+    var n = ROWS.filter(function (r) { return st(r.key).pick; }).length;
+    document.getElementById("count").textContent = n + " / " + ROWS.length + " picked";
+  }
+  updateCount();
+
+  var revealBtn = document.getElementById("reveal");
+  revealBtn.addEventListener("click", function () {
+    var on = revealBtn.getAttribute("aria-pressed") !== "true";
+    revealBtn.setAttribute("aria-pressed", String(on));
+    revealBtn.textContent = on ? "Hide models" : "Reveal models";
+    document.querySelectorAll(".who").forEach(function (w) { w.textContent = on ? w.dataset.who : ""; });
+  });
+
+  function summary() {
+    var lines = ["Voice bake-off picks"];
+    ROWS.forEach(function (r) {
+      var s = st(r.key), p = s.pick || "-";
+      var who = "";
+      if (s.pick && s.pick !== "none") who = " = " + REVEAL[r.key][s.pick.charAt(0)] + " take " + s.pick.slice(1);
+      var parts = [r.n + " " + r.key + ": " + (p === "none" ? "none good enough" : p) + who];
+      parts.push("score " + (s.score || "-"));
+      if (s.note && s.note.trim()) parts.push("note: " + s.note.trim().replace(/\s+/g, " "));
+      lines.push(parts.join(" | "));
+    });
+    return lines.join("\n");
+  }
+  var toast = document.getElementById("toast");
+  document.getElementById("copy").addEventListener("click", function () {
+    var text = summary(), out = document.getElementById("out");
+    out.value = text; document.getElementById("outbox").hidden = false;
+    function manual() { out.focus(); out.select(); toast.textContent = "Couldn't copy automatically. The text is selected below, so copy it by hand."; }
+    try {
+      navigator.clipboard.writeText(text).then(function () { toast.textContent = "Copied. Paste it back to Claude."; }, manual);
+    } catch (e) { manual(); }
+  });
+})();
+</script>

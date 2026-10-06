@@ -1,0 +1,1218 @@
+[
+ {
+  "clip": "pistol.shot/pistol.shot_01.wav",
+  "source": "X_40.wav",
+  "start": 1.74,
+  "end": 3.04,
+  "seconds": 0.894,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.shot/pistol.shot_02.wav",
+  "source": "X_40.wav",
+  "start": 5.64,
+  "end": 6.94,
+  "seconds": 0.894,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.shot/pistol.shot_03.wav",
+  "source": "X_40.wav",
+  "start": 10.08,
+  "end": 11.38,
+  "seconds": 0.893,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.shot/shotgun.shot_01.wav",
+  "source": "O_20.wav",
+  "start": 1.12,
+  "end": 2.82,
+  "seconds": 1.182,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.shot/shotgun.shot_02.wav",
+  "source": "O_20.wav",
+  "start": 5.2,
+  "end": 6.9,
+  "seconds": 1.231,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.shot/shotgun.shot_03.wav",
+  "source": "O_21P.wav",
+  "start": 0.42,
+  "end": 2.12,
+  "seconds": 0.829,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.shot/shotgun.shot_04.wav",
+  "source": "O_21P.wav",
+  "start": 3.45,
+  "end": 5.15,
+  "seconds": 0.829,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.empty/pistol.empty_01.wav",
+  "source": "X_18.wav",
+  "start": 0.57,
+  "end": 0.82,
+  "seconds": 0.071,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.empty/shotgun.empty_01.wav",
+  "source": "O_8.wav",
+  "start": 0.24,
+  "end": 0.49,
+  "seconds": 0.123,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.magout/pistol.magout_01.wav",
+  "source": "X_5.wav",
+  "start": 1.34,
+  "end": 1.84,
+  "seconds": 0.27,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.magin/pistol.magin_01.wav",
+  "source": "X_4.wav",
+  "start": 0.85,
+  "end": 1.3,
+  "seconds": 0.206,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.magin/pistol.magin_02.wav",
+  "source": "X_4.wav",
+  "start": 3.01,
+  "end": 3.46,
+  "seconds": 0.34,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.rack/pistol.rack_01.wav",
+  "source": "X_23.wav",
+  "start": 0.76,
+  "end": 1.31,
+  "seconds": 0.265,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.rack/pistol.rack_02.wav",
+  "source": "X_23.wav",
+  "start": 4.01,
+  "end": 4.56,
+  "seconds": 0.287,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.rack/pistol.rack_03.wav",
+  "source": "842731__stoniac__glock17_slide.wav",
+  "start": 6.45,
+  "end": 6.9,
+  "seconds": 0.271,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.rack/pistol.rack_04.wav",
+  "source": "842731__stoniac__glock17_slide.wav",
+  "start": 11.68,
+  "end": 12.13,
+  "seconds": 0.39,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.rack/pistol.rack_05.wav",
+  "source": "842731__stoniac__glock17_slide.wav",
+  "start": 16.56,
+  "end": 17.01,
+  "seconds": 0.35,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.rack/shotgun.rack_01.wav",
+  "source": "O_6.wav",
+  "start": 1.02,
+  "end": 1.72,
+  "seconds": 0.631,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.rack/shotgun.rack_02.wav",
+  "source": "755495__totallyphilip__remington-870-12-gauge-shotgun-pump-racking-cha-chock.wav",
+  "start": 0.09,
+  "end": 0.69,
+  "seconds": 0.553,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.rack/shotgun.rack_03.wav",
+  "source": "755495__totallyphilip__remington-870-12-gauge-shotgun-pump-racking-cha-chock.wav",
+  "start": 1.34,
+  "end": 1.94,
+  "seconds": 0.59,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.rack/shotgun.rack_04.wav",
+  "source": "755495__totallyphilip__remington-870-12-gauge-shotgun-pump-racking-cha-chock.wav",
+  "start": 2.3,
+  "end": 2.9,
+  "seconds": 0.559,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.shellin/shotgun.shellin_01.wav",
+  "source": "O_3.wav",
+  "start": 1.54,
+  "end": 1.73,
+  "seconds": 0.182,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.shellin/shotgun.shellin_02.wav",
+  "source": "O_3.wav",
+  "start": 6.89,
+  "end": 7.17,
+  "seconds": 0.269,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.shellin/shotgun.shellin_03.wav",
+  "source": "O_3.wav",
+  "start": 11.68,
+  "end": 12.06,
+  "seconds": 0.365,
+  "channels": 1
+ },
+ {
+  "clip": "shotgun.shellin/shotgun.shellin_04.wav",
+  "source": "O_3.wav",
+  "start": 14.86,
+  "end": 15.04,
+  "seconds": 0.165,
+  "channels": 1
+ },
+ {
+  "clip": "casing.brass/casing.brass_01.wav",
+  "source": "318964__gryffdavid__bouncing-shell-casings-various-sizes.wav",
+  "start": 8.51,
+  "end": 8.71,
+  "seconds": 0.192,
+  "channels": 1
+ },
+ {
+  "clip": "casing.brass/casing.brass_02.wav",
+  "source": "318964__gryffdavid__bouncing-shell-casings-various-sizes.wav",
+  "start": 11.17,
+  "end": 11.34,
+  "seconds": 0.106,
+  "channels": 1
+ },
+ {
+  "clip": "casing.brass/casing.brass_03.wav",
+  "source": "318964__gryffdavid__bouncing-shell-casings-various-sizes.wav",
+  "start": 16.82,
+  "end": 17.03,
+  "seconds": 0.086,
+  "channels": 1
+ },
+ {
+  "clip": "casing.brass/casing.brass_04.wav",
+  "source": "318964__gryffdavid__bouncing-shell-casings-various-sizes.wav",
+  "start": 19.0,
+  "end": 19.22,
+  "seconds": 0.068,
+  "channels": 1
+ },
+ {
+  "clip": "casing.brass/casing.brass_05.wav",
+  "source": "318964__gryffdavid__bouncing-shell-casings-various-sizes.wav",
+  "start": 23.23,
+  "end": 23.56,
+  "seconds": 0.236,
+  "channels": 1
+ },
+ {
+  "clip": "casing.shell/casing.shell_01.wav",
+  "source": "620929__metrolynn__empty-shotgun-shellscasings-hitting-ground-bouncing.wav",
+  "start": 0.06,
+  "end": 0.96,
+  "seconds": 0.892,
+  "channels": 1
+ },
+ {
+  "clip": "holster.draw/holster.draw_01.wav",
+  "source": "707791__thegreeneyedghost__pulling_pistol_from_holster_and_securing_it_back_again_1.wav",
+  "start": 0.13,
+  "end": 0.63,
+  "seconds": 0.493,
+  "channels": 1
+ },
+ {
+  "clip": "holster.in/holster.in_01.wav",
+  "source": "707791__thegreeneyedghost__pulling_pistol_from_holster_and_securing_it_back_again_1.wav",
+  "start": 1.9,
+  "end": 2.4,
+  "seconds": 0.443,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.bullet/flesh.bullet_01.wav",
+  "source": "138481__justinvoke__bullet-blood-4.wav",
+  "start": 0.0,
+  "end": 0.218,
+  "seconds": 0.203,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.bullet/flesh.bullet_02.wav",
+  "source": "641040__magnuswaker__gross-impact.wav",
+  "start": 0.0,
+  "end": 0.6,
+  "seconds": 0.594,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.bullet/flesh.bullet_03.wav",
+  "source": "631895__duasun__gore-sounds.wav",
+  "start": 4.32,
+  "end": 4.77,
+  "seconds": 0.444,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.bullet/flesh.bullet_04.wav",
+  "source": "631895__duasun__gore-sounds.wav",
+  "start": 7.78,
+  "end": 8.23,
+  "seconds": 0.437,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.punch/flesh.punch_01.wav",
+  "source": "241950__dspena__punches-and-hits.wav",
+  "start": 1.22,
+  "end": 1.57,
+  "seconds": 0.345,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.punch/flesh.punch_02.wav",
+  "source": "241950__dspena__punches-and-hits.wav",
+  "start": 3.16,
+  "end": 3.51,
+  "seconds": 0.337,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.punch/flesh.punch_03.wav",
+  "source": "241950__dspena__punches-and-hits.wav",
+  "start": 4.64,
+  "end": 4.99,
+  "seconds": 0.34,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.punch/flesh.punch_04.wav",
+  "source": "241950__dspena__punches-and-hits.wav",
+  "start": 12.65,
+  "end": 13.0,
+  "seconds": 0.339,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.punch/flesh.punch_05.wav",
+  "source": "503277__kinoton__face-punch-body-impact-4x.wav",
+  "start": 0.31,
+  "end": 0.71,
+  "seconds": 0.389,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.punch/flesh.punch_06.wav",
+  "source": "503277__kinoton__face-punch-body-impact-4x.wav",
+  "start": 1.88,
+  "end": 2.28,
+  "seconds": 0.388,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.punch/flesh.punch_07.wav",
+  "source": "503277__kinoton__face-punch-body-impact-4x.wav",
+  "start": 3.42,
+  "end": 3.82,
+  "seconds": 0.389,
+  "channels": 1
+ },
+ {
+  "clip": "player.hit/player.hit_01.wav",
+  "source": "503277__kinoton__face-punch-body-impact-4x.wav",
+  "start": 0.31,
+  "end": 0.71,
+  "seconds": 0.389,
+  "channels": 1
+ },
+ {
+  "clip": "player.hit/player.hit_02.wav",
+  "source": "503277__kinoton__face-punch-body-impact-4x.wav",
+  "start": 1.88,
+  "end": 2.28,
+  "seconds": 0.388,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.stab/flesh.stab_01.wav",
+  "source": "870738__challsmith__knife-stabs-into-chicken-breasts-1.wav",
+  "start": 4.85,
+  "end": 5.25,
+  "seconds": 0.388,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.stab/flesh.stab_02.wav",
+  "source": "870738__challsmith__knife-stabs-into-chicken-breasts-1.wav",
+  "start": 9.3,
+  "end": 9.7,
+  "seconds": 0.385,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.stab/flesh.stab_03.wav",
+  "source": "870738__challsmith__knife-stabs-into-chicken-breasts-1.wav",
+  "start": 11.98,
+  "end": 12.38,
+  "seconds": 0.385,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.stab/flesh.stab_04.wav",
+  "source": "870738__challsmith__knife-stabs-into-chicken-breasts-1.wav",
+  "start": 26.55,
+  "end": 26.95,
+  "seconds": 0.346,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.stab/flesh.stab_05.wav",
+  "source": "411742__neilsher__knife-stab-pull-wav.wav",
+  "start": 0.36,
+  "end": 0.86,
+  "seconds": 0.493,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.slash/flesh.slash_01.wav",
+  "source": "35213__abyssmal__slashkut-wav.wav",
+  "start": 0.0,
+  "end": 0.492,
+  "seconds": 0.478,
+  "channels": 1
+ },
+ {
+  "clip": "flesh.slash/flesh.slash_02.wav",
+  "source": "35214__abyssmal__throatslashadd-wav.wav",
+  "start": 2.4,
+  "end": 2.95,
+  "seconds": 0.515,
+  "channels": 1
+ },
+ {
+  "clip": "blood.splat/blood.splat_01.wav",
+  "source": "406582___stubb__blood-spatter-squelch-near-mono.wav",
+  "start": 0.0,
+  "end": 0.974,
+  "seconds": 0.974,
+  "channels": 1
+ },
+ {
+  "clip": "body.fall/body.fall_01.wav",
+  "source": "128103__project_trident__wooden-floor-body-slams.wav",
+  "start": 18.81,
+  "end": 19.51,
+  "seconds": 0.547,
+  "channels": 1
+ },
+ {
+  "clip": "body.fall/body.fall_02.wav",
+  "source": "128103__project_trident__wooden-floor-body-slams.wav",
+  "start": 21.18,
+  "end": 21.88,
+  "seconds": 0.585,
+  "channels": 1
+ },
+ {
+  "clip": "body.fall/body.fall_03.wav",
+  "source": "128103__project_trident__wooden-floor-body-slams.wav",
+  "start": 32.79,
+  "end": 33.49,
+  "seconds": 0.284,
+  "channels": 1
+ },
+ {
+  "clip": "body.fall/body.fall_04.wav",
+  "source": "455536__kooust__bodyfall-on-carpet-wav.wav",
+  "start": 0.37,
+  "end": 1.07,
+  "seconds": 0.69,
+  "channels": 1
+ },
+ {
+  "clip": "body.fall/body.fall_05.wav",
+  "source": "455536__kooust__bodyfall-on-carpet-wav.wav",
+  "start": 4.75,
+  "end": 5.45,
+  "seconds": 0.691,
+  "channels": 1
+ },
+ {
+  "clip": "body.fall/body.fall_06.wav",
+  "source": "455536__kooust__bodyfall-on-carpet-wav.wav",
+  "start": 9.92,
+  "end": 10.62,
+  "seconds": 0.652,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.death/intruder.death_01.wav",
+  "source": "547184__mrfossy__voice_adultmale_deathscream_01.wav",
+  "start": 0.0,
+  "end": 1.06,
+  "seconds": 0.988,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step/intruder.step_01.wav",
+  "source": "235718__speedygonzo__footsteps-sneakers-on-wood-wav.wav",
+  "start": 11.66,
+  "end": 11.91,
+  "seconds": 0.166,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step/intruder.step_02.wav",
+  "source": "235718__speedygonzo__footsteps-sneakers-on-wood-wav.wav",
+  "start": 23.43,
+  "end": 23.68,
+  "seconds": 0.197,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step/intruder.step_03.wav",
+  "source": "235718__speedygonzo__footsteps-sneakers-on-wood-wav.wav",
+  "start": 24.42,
+  "end": 24.67,
+  "seconds": 0.186,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step/intruder.step_04.wav",
+  "source": "235718__speedygonzo__footsteps-sneakers-on-wood-wav.wav",
+  "start": 25.41,
+  "end": 25.66,
+  "seconds": 0.239,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step/intruder.step_05.wav",
+  "source": "235718__speedygonzo__footsteps-sneakers-on-wood-wav.wav",
+  "start": 26.73,
+  "end": 26.98,
+  "seconds": 0.202,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step/intruder.step_06.wav",
+  "source": "235718__speedygonzo__footsteps-sneakers-on-wood-wav.wav",
+  "start": 28.09,
+  "end": 28.34,
+  "seconds": 0.19,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step/intruder.step_07.wav",
+  "source": "235718__speedygonzo__footsteps-sneakers-on-wood-wav.wav",
+  "start": 36.36,
+  "end": 36.61,
+  "seconds": 0.208,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step/intruder.step_08.wav",
+  "source": "235718__speedygonzo__footsteps-sneakers-on-wood-wav.wav",
+  "start": 37.95,
+  "end": 38.2,
+  "seconds": 0.176,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step.run/intruder.step.run_01.wav",
+  "source": "565713__ralphwhitehead__footsteps-running-on-wooden-floor-fast-pace-wav.wav",
+  "start": 13.89,
+  "end": 14.14,
+  "seconds": 0.236,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step.run/intruder.step.run_02.wav",
+  "source": "565713__ralphwhitehead__footsteps-running-on-wooden-floor-fast-pace-wav.wav",
+  "start": 15.06,
+  "end": 15.31,
+  "seconds": 0.234,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step.run/intruder.step.run_03.wav",
+  "source": "565713__ralphwhitehead__footsteps-running-on-wooden-floor-fast-pace-wav.wav",
+  "start": 15.44,
+  "end": 15.69,
+  "seconds": 0.236,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step.run/intruder.step.run_04.wav",
+  "source": "565713__ralphwhitehead__footsteps-running-on-wooden-floor-fast-pace-wav.wav",
+  "start": 16.23,
+  "end": 16.48,
+  "seconds": 0.243,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step.run/intruder.step.run_05.wav",
+  "source": "565713__ralphwhitehead__footsteps-running-on-wooden-floor-fast-pace-wav.wav",
+  "start": 17.02,
+  "end": 17.27,
+  "seconds": 0.241,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.step.run/intruder.step.run_06.wav",
+  "source": "565713__ralphwhitehead__footsteps-running-on-wooden-floor-fast-pace-wav.wav",
+  "start": 20.03,
+  "end": 20.28,
+  "seconds": 0.235,
+  "channels": 1
+ },
+ {
+  "clip": "door.knock/door.knock_01.wav",
+  "source": "256513__hunter4708__knock-on-the-door.wav",
+  "start": 0.06,
+  "end": 1.26,
+  "seconds": 0.772,
+  "channels": 1
+ },
+ {
+  "clip": "door.knock/door.knock_02.wav",
+  "source": "256513__hunter4708__knock-on-the-door.wav",
+  "start": 1.82,
+  "end": 3.02,
+  "seconds": 1.189,
+  "channels": 1
+ },
+ {
+  "clip": "door.knock/door.knock_03.wav",
+  "source": "256513__hunter4708__knock-on-the-door.wav",
+  "start": 4.99,
+  "end": 6.19,
+  "seconds": 1.185,
+  "channels": 1
+ },
+ {
+  "clip": "door.pound/door.pound_01.wav",
+  "source": "250539__jhumbucker__door-pounding-increasing-intensity.wav",
+  "start": 4.65,
+  "end": 5.25,
+  "seconds": 0.593,
+  "channels": 1
+ },
+ {
+  "clip": "door.pound/door.pound_02.wav",
+  "source": "250539__jhumbucker__door-pounding-increasing-intensity.wav",
+  "start": 5.81,
+  "end": 6.41,
+  "seconds": 0.588,
+  "channels": 1
+ },
+ {
+  "clip": "door.pound/door.pound_03.wav",
+  "source": "250539__jhumbucker__door-pounding-increasing-intensity.wav",
+  "start": 9.31,
+  "end": 9.91,
+  "seconds": 0.593,
+  "channels": 1
+ },
+ {
+  "clip": "door.pound/door.pound_04.wav",
+  "source": "250539__jhumbucker__door-pounding-increasing-intensity.wav",
+  "start": 11.64,
+  "end": 12.24,
+  "seconds": 0.593,
+  "channels": 1
+ },
+ {
+  "clip": "door.pound/door.pound_05.wav",
+  "source": "250539__jhumbucker__door-pounding-increasing-intensity.wav",
+  "start": 12.8,
+  "end": 13.4,
+  "seconds": 0.588,
+  "channels": 1
+ },
+ {
+  "clip": "door.kick/door.kick_01.wav",
+  "source": "533858__marstan__knocking-out-the-door-by-foot.wav",
+  "start": 2.95,
+  "end": 3.85,
+  "seconds": 0.868,
+  "channels": 1
+ },
+ {
+  "clip": "door.kick/door.kick_02.wav",
+  "source": "533858__marstan__knocking-out-the-door-by-foot.wav",
+  "start": 5.67,
+  "end": 6.57,
+  "seconds": 0.872,
+  "channels": 1
+ },
+ {
+  "clip": "door.kick/door.kick_03.wav",
+  "source": "533858__marstan__knocking-out-the-door-by-foot.wav",
+  "start": 12.49,
+  "end": 12.96,
+  "seconds": 0.456,
+  "channels": 1
+ },
+ {
+  "clip": "door.kick/door.kick_04.wav",
+  "source": "533858__marstan__knocking-out-the-door-by-foot.wav",
+  "start": 12.96,
+  "end": 13.86,
+  "seconds": 0.888,
+  "channels": 1
+ },
+ {
+  "clip": "door.kick/door.kick_05.wav",
+  "source": "452609__kyles__door-wood-old-heavy-kick-open-good-impact-1-with-rattle-1-wi.wav",
+  "start": 0.03,
+  "end": 0.98,
+  "seconds": 0.938,
+  "channels": 1
+ },
+ {
+  "clip": "door.kick/door.kick_06.wav",
+  "source": "452609__kyles__door-wood-old-heavy-kick-open-good-impact-1-with-rattle-1-wi.wav",
+  "start": 2.16,
+  "end": 3.11,
+  "seconds": 0.941,
+  "channels": 1
+ },
+ {
+  "clip": "door.burst/door.burst_01.wav",
+  "source": "160213__qubodup__kicking-forcing-breaking-wooden-door.flac",
+  "start": 0.0,
+  "end": 1.0,
+  "seconds": 0.762,
+  "channels": 1
+ },
+ {
+  "clip": "door.burst/door.burst_02.wav",
+  "source": "262538__talitha5__locked-door-being-forced-open-wav.wav",
+  "start": 0.0,
+  "end": 1.877,
+  "seconds": 1.791,
+  "channels": 1
+ },
+ {
+  "clip": "door.slam/door.slam_01.wav",
+  "source": "389811__krnash__wooden-door-slamming-open-wav.wav",
+  "start": 0.42,
+  "end": 1.42,
+  "seconds": 0.988,
+  "channels": 1
+ },
+ {
+  "clip": "door.open/door.open_01.wav",
+  "source": "710510__dleverett__door-opening-creaking.wav",
+  "start": 0.0,
+  "end": 1.8,
+  "seconds": 1.8,
+  "channels": 1
+ },
+ {
+  "clip": "door.close/door.close_01.wav",
+  "source": "184307__swiftoid__bedroom-door-close.wav",
+  "start": 0.45,
+  "end": 1.45,
+  "seconds": 0.97,
+  "channels": 1
+ },
+ {
+  "clip": "door.creak/door.creak_01.wav",
+  "source": "273466__jemburyturner__big-door-creak-wav.wav",
+  "start": 0.15,
+  "end": 4.3,
+  "seconds": 4.115,
+  "channels": 1
+ },
+ {
+  "clip": "door.keys.unlock/door.keys.unlock_01.wav",
+  "source": "119918__ftpalad__keys-unlocking-door-aif.aiff",
+  "start": 0.7,
+  "end": 1.9,
+  "seconds": 1.136,
+  "channels": 1
+ },
+ {
+  "clip": "door.keys.jingle/door.keys.jingle_01.wav",
+  "source": "390324__lightnessko__keys-jingling.wav",
+  "start": 0.0,
+  "end": 2.4,
+  "seconds": 2.2,
+  "channels": 1
+ },
+ {
+  "clip": "outcome.siren/outcome.siren_01.wav",
+  "source": "159753__conleec__misc_police_siren_wailer_static_001.wav",
+  "start": 0.5,
+  "end": 16.8,
+  "seconds": 16.237,
+  "channels": 1
+ },
+ {
+  "clip": "outcome.siren.pa/outcome.siren.pa_01.wav",
+  "source": "159755__conleec__misc_police_siren_in_stop_officer_001.wav",
+  "start": 0.0,
+  "end": 19.908,
+  "seconds": 8.016,
+  "channels": 1
+ },
+ {
+  "clip": "outcome.bullhorn/outcome.bullhorn_01.wav",
+  "source": "556360__cookiespolicy__megaphone-onoff-from-trigger-1.wav",
+  "start": 0.0,
+  "end": 2.28,
+  "seconds": 1.971,
+  "channels": 1
+ },
+ {
+  "clip": "outcome.radio/outcome.radio_01.wav",
+  "source": "524205__joviansounds__radio-sign-off-squelch.wav",
+  "start": 0.0,
+  "end": 1.214,
+  "seconds": 0.234,
+  "channels": 1
+ },
+ {
+  "clip": "outcome.cardoor/outcome.cardoor_01.wav",
+  "source": "778421__blondpanda__car_door_closing_dull_04.wav",
+  "start": 0.0,
+  "end": 0.374,
+  "seconds": 0.374,
+  "channels": 1
+ },
+ {
+  "clip": "win.confetti/win.confetti_01.wav",
+  "source": "26349__streety__partypopper.flac",
+  "start": 0.0,
+  "end": 0.61,
+  "seconds": 0.539,
+  "channels": 2
+ },
+ {
+  "clip": "win.horn/win.horn_01.wav",
+  "source": "170583__audiosmedia__party-horn.wav",
+  "start": 0.0,
+  "end": 1.785,
+  "seconds": 1.596,
+  "channels": 2
+ },
+ {
+  "clip": "win.sting/win.sting_01.wav",
+  "source": "397355__plasterbrain__tada-fanfare-a.flac",
+  "start": 0.0,
+  "end": 1.717,
+  "seconds": 1.7,
+  "channels": 2
+ },
+ {
+  "clip": "win.cheer/win.cheer_01.wav",
+  "source": "752709__nox_sound__voice_crowd_small_expression_applause_cheer_stereo.wav",
+  "start": 0.0,
+  "end": 3.021,
+  "seconds": 2.872,
+  "channels": 2
+ },
+ {
+  "clip": "impact.wall/impact.wall_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_wall)",
+  "start": 0,
+  "end": 0.28,
+  "seconds": 0.28,
+  "channels": 1
+ },
+ {
+  "clip": "impact.wall/impact.wall_02.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_wall)",
+  "start": 0,
+  "end": 0.28,
+  "seconds": 0.28,
+  "channels": 1
+ },
+ {
+  "clip": "impact.wall/impact.wall_03.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_wall)",
+  "start": 0,
+  "end": 0.28,
+  "seconds": 0.28,
+  "channels": 1
+ },
+ {
+  "clip": "impact.wall/impact.wall_04.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_wall)",
+  "start": 0,
+  "end": 0.28,
+  "seconds": 0.28,
+  "channels": 1
+ },
+ {
+  "clip": "amb.night/amb.night_01.wav",
+  "source": "459675__brunoboselli__night-ambience.wav",
+  "start": 0.0,
+  "end": 44.789,
+  "seconds": 43.789,
+  "channels": 2
+ },
+ {
+  "clip": "outcome.camera/outcome.camera_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_camera)",
+  "start": 0,
+  "end": 0.81,
+  "seconds": 0.81,
+  "channels": 1
+ },
+ {
+  "clip": "outcome.rotor/outcome.rotor_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_rotor)",
+  "start": 0,
+  "end": 4.0,
+  "seconds": 4.0,
+  "channels": 1
+ },
+ {
+  "clip": "door.pry/door.pry_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_pry)",
+  "start": 0,
+  "end": 1.087,
+  "seconds": 1.087,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.swing/intruder.swing_01.wav",
+  "source": "511023__ale-batec__male-fight-grunts.wav",
+  "start": 5.36,
+  "end": 5.81,
+  "seconds": 0.404,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.swing/intruder.swing_02.wav",
+  "source": "511023__ale-batec__male-fight-grunts.wav",
+  "start": 7.71,
+  "end": 8.16,
+  "seconds": 0.45,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.swing/intruder.swing_03.wav",
+  "source": "511023__ale-batec__male-fight-grunts.wav",
+  "start": 16.65,
+  "end": 17.1,
+  "seconds": 0.434,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.swing/intruder.swing_04.wav",
+  "source": "511023__ale-batec__male-fight-grunts.wav",
+  "start": 17.13,
+  "end": 17.58,
+  "seconds": 0.446,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.swing/intruder.swing_05.wav",
+  "source": "511023__ale-batec__male-fight-grunts.wav",
+  "start": 18.27,
+  "end": 18.72,
+  "seconds": 0.412,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.swing/intruder.swing_06.wav",
+  "source": "511023__ale-batec__male-fight-grunts.wav",
+  "start": 26.3,
+  "end": 26.75,
+  "seconds": 0.436,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.swing/intruder.swing_07.wav",
+  "source": "511023__ale-batec__male-fight-grunts.wav",
+  "start": 27.49,
+  "end": 27.91,
+  "seconds": 0.412,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.swing/intruder.swing_08.wav",
+  "source": "511023__ale-batec__male-fight-grunts.wav",
+  "start": 27.91,
+  "end": 28.36,
+  "seconds": 0.446,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.pain/intruder.pain_01.wav",
+  "source": "610991__unfa__short-male-pain-grunts.flac",
+  "start": 1.1,
+  "end": 1.65,
+  "seconds": 0.542,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.pain/intruder.pain_02.wav",
+  "source": "610991__unfa__short-male-pain-grunts.flac",
+  "start": 3.65,
+  "end": 4.2,
+  "seconds": 0.536,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.pain/intruder.pain_03.wav",
+  "source": "610991__unfa__short-male-pain-grunts.flac",
+  "start": 9.68,
+  "end": 10.23,
+  "seconds": 0.541,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.pain/intruder.pain_04.wav",
+  "source": "610991__unfa__short-male-pain-grunts.flac",
+  "start": 10.8,
+  "end": 11.35,
+  "seconds": 0.55,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.pain/intruder.pain_05.wav",
+  "source": "610991__unfa__short-male-pain-grunts.flac",
+  "start": 14.72,
+  "end": 15.27,
+  "seconds": 0.542,
+  "channels": 1
+ },
+ {
+  "clip": "intruder.pain/intruder.pain_06.wav",
+  "source": "610991__unfa__short-male-pain-grunts.flac",
+  "start": 24.3,
+  "end": 24.85,
+  "seconds": 0.548,
+  "channels": 1
+ },
+ {
+  "clip": "door.bell/door.bell_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_doorbell)",
+  "start": 0,
+  "end": 1.75,
+  "seconds": 1.75,
+  "channels": 1
+ },
+ {
+  "clip": "cam.motion/cam.motion_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_motion)",
+  "start": 0,
+  "end": 0.52,
+  "seconds": 0.52,
+  "channels": 1
+ },
+ {
+  "clip": "door.handle/door.handle_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_handle)",
+  "start": 0,
+  "end": 0.735,
+  "seconds": 0.735,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.slidelock/pistol.slidelock_01.wav",
+  "source": "X_13.wav",
+  "start": 0.92,
+  "end": 1.32,
+  "seconds": 0.336,
+  "channels": 1
+ },
+ {
+  "clip": "pistol.sliderelease/pistol.sliderelease_01.wav",
+  "source": "X_17.wav",
+  "start": 1.14,
+  "end": 1.64,
+  "seconds": 0.085,
+  "channels": 1
+ },
+ {
+  "clip": "steps.gravel/steps.gravel_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_gravel_step)",
+  "start": 0,
+  "end": 0.339,
+  "seconds": 0.339,
+  "channels": 1
+ },
+ {
+  "clip": "steps.gravel/steps.gravel_02.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_gravel_step)",
+  "start": 0,
+  "end": 0.343,
+  "seconds": 0.343,
+  "channels": 1
+ },
+ {
+  "clip": "steps.gravel/steps.gravel_03.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_gravel_step)",
+  "start": 0,
+  "end": 0.35,
+  "seconds": 0.35,
+  "channels": 1
+ },
+ {
+  "clip": "steps.gravel/steps.gravel_04.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_gravel_step)",
+  "start": 0,
+  "end": 0.333,
+  "seconds": 0.333,
+  "channels": 1
+ },
+ {
+  "clip": "steps.gravel/steps.gravel_05.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_gravel_step)",
+  "start": 0,
+  "end": 0.317,
+  "seconds": 0.317,
+  "channels": 1
+ },
+ {
+  "clip": "gate.latch/gate.latch_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_gate_latch)",
+  "start": 0,
+  "end": 0.62,
+  "seconds": 0.62,
+  "channels": 1
+ },
+ {
+  "clip": "cuffs.click/cuffs.click_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_cuffs_click)",
+  "start": 0,
+  "end": 0.083,
+  "seconds": 0.083,
+  "channels": 1
+ },
+ {
+  "clip": "cuffs.ratchet/cuffs.ratchet_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_cuffs_ratchet)",
+  "start": 0,
+  "end": 0.423,
+  "seconds": 0.423,
+  "channels": 1
+ },
+ {
+  "clip": "taser.crackle/taser.crackle_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_taser)",
+  "start": 0,
+  "end": 1.5,
+  "seconds": 1.5,
+  "channels": 1
+ },
+ {
+  "clip": "radio.squelch/radio.squelch_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_radio_squelch)",
+  "start": 0,
+  "end": 0.29,
+  "seconds": 0.29,
+  "channels": 1
+ },
+ {
+  "clip": "glass.hit/glass.hit_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_glass)",
+  "start": 0,
+  "end": 0.482,
+  "seconds": 0.482,
+  "channels": 1
+ },
+ {
+  "clip": "glass.hit/glass.hit_02.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_glass)",
+  "start": 0,
+  "end": 0.512,
+  "seconds": 0.512,
+  "channels": 1
+ },
+ {
+  "clip": "glass.hit/glass.hit_03.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_glass)",
+  "start": 0,
+  "end": 0.516,
+  "seconds": 0.516,
+  "channels": 1
+ },
+ {
+  "clip": "metal.hit/metal.hit_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_metal)",
+  "start": 0,
+  "end": 0.18,
+  "seconds": 0.18,
+  "channels": 1
+ },
+ {
+  "clip": "metal.hit/metal.hit_02.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_metal)",
+  "start": 0,
+  "end": 0.184,
+  "seconds": 0.184,
+  "channels": 1
+ },
+ {
+  "clip": "metal.hit/metal.hit_03.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_metal)",
+  "start": 0,
+  "end": 0.176,
+  "seconds": 0.176,
+  "channels": 1
+ },
+ {
+  "clip": "car.crash/car.crash_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_crash)",
+  "start": 0,
+  "end": 1.123,
+  "seconds": 1.123,
+  "channels": 1
+ },
+ {
+  "clip": "car.horn/car.horn_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_horn)",
+  "start": 0,
+  "end": 1.5,
+  "seconds": 1.5,
+  "channels": 1
+ },
+ {
+  "clip": "car.arrive/car.arrive_01.wav",
+  "source": "synthesized (scripts/prepare_sfx.py synth_car_arrive)",
+  "start": 0,
+  "end": 4.931,
+  "seconds": 4.931,
+  "channels": 1
+ }
+]

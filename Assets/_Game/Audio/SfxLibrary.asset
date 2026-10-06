@@ -1,0 +1,3392 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001ef1a926876472d988607954ba1998, type: 3}
+  m_Name: SfxLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::HIS.Core.SfxLibrary
+  entries:
+  - key: amb.night
+    clips:
+    - {fileID: 8300000, guid: 1ca9345c80dd3473280aff09ec5238e3, type: 3}
+    volume: 0.35
+    spatial: 1
+    minDistance: 1.5
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 1
+    priority: 40
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: blood.splat
+    clips:
+    - {fileID: 8300000, guid: 2ebcb6f048946451a91654376637ca25, type: 3}
+    volume: 0.45
+    spatial: 1
+    minDistance: 0.4
+    maxDistance: 10
+    cooldown: 0.2
+    maxVoices: 1
+    priority: 180
+    lowpassHz: 0
+    pitchJitter: 0.08
+  - key: body.fall
+    clips:
+    - {fileID: 8300000, guid: 4065e6c2307404adb8493904ab876ab8, type: 3}
+    - {fileID: 8300000, guid: 4e3c8f866d8284cc08b4c6fe4f47dd62, type: 3}
+    - {fileID: 8300000, guid: 746f7486baa8348d59196f9cf5c792a7, type: 3}
+    - {fileID: 8300000, guid: b04f4c64ead5f4c69af28ac5efa16d25, type: 3}
+    - {fileID: 8300000, guid: 8c2508a156cb44093b227f33e084b6a7, type: 3}
+    - {fileID: 8300000, guid: 88ab97d3c6e3f49d280995553363df30, type: 3}
+    volume: 0.9
+    spatial: 1
+    minDistance: 0.8
+    maxDistance: 20
+    cooldown: 0.1
+    maxVoices: 2
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: cam.motion
+    clips:
+    - {fileID: 8300000, guid: 1fc414876c3a8489698129a050ee859d, type: 3}
+    volume: 0.6
+    spatial: 1
+    minDistance: 0.5
+    maxDistance: 8
+    cooldown: 0.3
+    maxVoices: 1
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: car.arrive
+    clips:
+    - {fileID: 8300000, guid: 5aa39682bb72945fd9ccc10ad4598c1b, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 5
+    maxDistance: 80
+    cooldown: 0
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 2000
+    pitchJitter: 0
+  - key: car.crash
+    clips:
+    - {fileID: 8300000, guid: 8a6bc628308514d56833651b0fd7240e, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 0
+    priority: 128
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: car.horn
+    clips:
+    - {fileID: 8300000, guid: c6d6ab024cf5542dd9099230b4d65cb4, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 0
+    priority: 128
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: casing.brass
+    clips:
+    - {fileID: 8300000, guid: c9f8cc4d99ee64df9a54c8f8685e7c15, type: 3}
+    - {fileID: 8300000, guid: 968d47f1cf8a748e5a69df32ad3ab6dd, type: 3}
+    - {fileID: 8300000, guid: 6395323a8af944343b0440fa5cd7d68e, type: 3}
+    - {fileID: 8300000, guid: 32d6acd87f614412aa6a851ab6c13e2c, type: 3}
+    - {fileID: 8300000, guid: 1c2641ff5382c4f7398555f7c6bada66, type: 3}
+    volume: 0.45
+    spatial: 1
+    minDistance: 0.3
+    maxDistance: 10
+    cooldown: 0.03
+    maxVoices: 4
+    priority: 200
+    lowpassHz: 0
+    pitchJitter: 0.08
+  - key: casing.shell
+    clips:
+    - {fileID: 8300000, guid: 1defb412faa1b447eaab0f519abacdd2, type: 3}
+    volume: 0.45
+    spatial: 1
+    minDistance: 0.3
+    maxDistance: 10
+    cooldown: 0.03
+    maxVoices: 4
+    priority: 200
+    lowpassHz: 0
+    pitchJitter: 0.08
+  - key: cuffs.click
+    clips:
+    - {fileID: 8300000, guid: 8a05e9f66dd274342a761dc8f5203942, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 0
+    priority: 128
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: cuffs.ratchet
+    clips:
+    - {fileID: 8300000, guid: e7a8ff61a5b27436da7538a638456287, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 0
+    priority: 128
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: door.bell
+    clips:
+    - {fileID: 8300000, guid: ba3b7adf56cf544a1a0f983749985a94, type: 3}
+    volume: 0.9
+    spatial: 1
+    minDistance: 1.5
+    maxDistance: 25
+    cooldown: 1
+    maxVoices: 1
+    priority: 20
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: door.burst
+    clips:
+    - {fileID: 8300000, guid: e3b6f60732ba44f999b3f4ae74a7dcef, type: 3}
+    - {fileID: 8300000, guid: 899fda6bafc324d2ba26991b0b7cb3d9, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.close
+    clips:
+    - {fileID: 8300000, guid: df237076f668f49b08c9f1f4e6b38d98, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.creak
+    clips:
+    - {fileID: 8300000, guid: a6cc4955afb7c491593d2d1f610bfc67, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.handle
+    clips:
+    - {fileID: 8300000, guid: 419866b9e20fb402fac4929dc6b729da, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.keys.jingle
+    clips:
+    - {fileID: 8300000, guid: 0d7d068cdae8747d086583fa24082a24, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.keys.unlock
+    clips:
+    - {fileID: 8300000, guid: 3aa9a54202cc44814b83c47c7f3904bf, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.kick
+    clips:
+    - {fileID: 8300000, guid: 907b4c74584684eb09e0fa314500cdbc, type: 3}
+    - {fileID: 8300000, guid: ab2e593d33fd74badb9a64ffe79aea6c, type: 3}
+    - {fileID: 8300000, guid: fc6883943e7b5480bb59d4f7326dd8b9, type: 3}
+    - {fileID: 8300000, guid: 2508387f9332645cc806ee746fc486e0, type: 3}
+    - {fileID: 8300000, guid: 653b09377fcad444d90b8cac82a75f3e, type: 3}
+    - {fileID: 8300000, guid: f4e8a82e7804e4ea0a7652a07cc154f2, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.knock
+    clips:
+    - {fileID: 8300000, guid: 6e3597d58c73447e7a1fe66663f33895, type: 3}
+    - {fileID: 8300000, guid: a1ab5a5390fb146d49b984560c11fabb, type: 3}
+    - {fileID: 8300000, guid: a9e23de4f51554e1aa4a370cc2fb4371, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.open
+    clips:
+    - {fileID: 8300000, guid: 31351d2bc353a490b8606828c5aa7903, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.pound
+    clips:
+    - {fileID: 8300000, guid: 541be009efa164658bcbceebaf4163a1, type: 3}
+    - {fileID: 8300000, guid: 1eb7488d81ee8419e831969563c62bff, type: 3}
+    - {fileID: 8300000, guid: 43ec4e3f4fcf24c21ad144424ee297ae, type: 3}
+    - {fileID: 8300000, guid: fbd409ac3be144da48eeb0ae7e6ae896, type: 3}
+    - {fileID: 8300000, guid: 9d045d1afd9cd41e0ae69282f03a1e07, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.pry
+    clips:
+    - {fileID: 8300000, guid: d1d071618b9ed4fe68051931a7da4bad, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: door.slam
+    clips:
+    - {fileID: 8300000, guid: 460021f41bf354576a2b3a1b643a850b, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: drunk.mumble
+    clips:
+    - {fileID: 8300000, guid: 2be0505444a3946d18a376958e34ef98, type: 3}
+    - {fileID: 8300000, guid: 4a188bf647b524adeb1f0b548e7f3adb, type: 3}
+    volume: 0.9
+    spatial: 1
+    minDistance: 1
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 1
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: flesh.bullet
+    clips:
+    - {fileID: 8300000, guid: 7bb43aba637924e91ad3737125cd90c9, type: 3}
+    - {fileID: 8300000, guid: 5b746813b224b40498fb6fe93fba30f6, type: 3}
+    - {fileID: 8300000, guid: 89100a67a36e042dfae4dfae114facbc, type: 3}
+    - {fileID: 8300000, guid: 987a6b05d4c344be685a53179e62d32a, type: 3}
+    volume: 0.95
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0.04
+    maxVoices: 2
+    priority: 40
+    lowpassHz: 0
+    pitchJitter: 0.06
+  - key: flesh.punch
+    clips:
+    - {fileID: 8300000, guid: 848f5325fb8564c79acea575dc3d69c6, type: 3}
+    - {fileID: 8300000, guid: a8fbf73f1e5eb4a66bf32ff82ce9f990, type: 3}
+    - {fileID: 8300000, guid: b03217d3e855646f0a5b9dccab7c3b83, type: 3}
+    - {fileID: 8300000, guid: 1146d11f8de084e16b557e45bc9c59bd, type: 3}
+    - {fileID: 8300000, guid: 7d56d31663b5c4bd6a897b6b4e7d716a, type: 3}
+    - {fileID: 8300000, guid: 148c6391a571c4a55861266f2496388f, type: 3}
+    - {fileID: 8300000, guid: 90a757cf864d04335bbd2a60039036c2, type: 3}
+    volume: 0.95
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0.04
+    maxVoices: 2
+    priority: 40
+    lowpassHz: 0
+    pitchJitter: 0.06
+  - key: flesh.slash
+    clips:
+    - {fileID: 8300000, guid: e991f2b5bc49d45cdbecc2645e98b2eb, type: 3}
+    - {fileID: 8300000, guid: 12ff9900c729e4b99916c50564174063, type: 3}
+    volume: 0.95
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0.04
+    maxVoices: 2
+    priority: 40
+    lowpassHz: 0
+    pitchJitter: 0.06
+  - key: flesh.stab
+    clips:
+    - {fileID: 8300000, guid: b5c42b06684454f4d9c1cb025b600e0f, type: 3}
+    - {fileID: 8300000, guid: c4588988bf64a4ce69875965f216ef8f, type: 3}
+    - {fileID: 8300000, guid: 276dc5c412e794cbfb799a1c643dbd99, type: 3}
+    - {fileID: 8300000, guid: 33f14dfd018464e37b51762cbe1950ab, type: 3}
+    - {fileID: 8300000, guid: 9fefffbd6062f49bdb8d578638683126, type: 3}
+    volume: 0.95
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0.04
+    maxVoices: 2
+    priority: 40
+    lowpassHz: 0
+    pitchJitter: 0.06
+  - key: gate.latch
+    clips:
+    - {fileID: 8300000, guid: 3902ab7e7ee6749148ed8e70903d8420, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 1
+    maxDistance: 20
+    cooldown: 0.2
+    maxVoices: 1
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: glass.hit
+    clips:
+    - {fileID: 8300000, guid: 06639a4b7ed1b41ef9057d3a1e524bd1, type: 3}
+    - {fileID: 8300000, guid: 61f8b7af6940a42b2b587946afc1fbe6, type: 3}
+    - {fileID: 8300000, guid: e94acd95c48464c8ea253eb26cff03a3, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 0
+    priority: 128
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: holster.draw
+    clips:
+    - {fileID: 8300000, guid: cb703291ab37f4371afa4aad29ac7889, type: 3}
+    volume: 0.6
+    spatial: 1
+    minDistance: 0.3
+    maxDistance: 8
+    cooldown: 0.15
+    maxVoices: 1
+    priority: 90
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: holster.in
+    clips:
+    - {fileID: 8300000, guid: c857ce447ee8941ba998f17baf5c8fe9, type: 3}
+    volume: 0.6
+    spatial: 1
+    minDistance: 0.3
+    maxDistance: 8
+    cooldown: 0.15
+    maxVoices: 1
+    priority: 90
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: impact.wall
+    clips:
+    - {fileID: 8300000, guid: 9655b3da9375a4b51b699dfeb23e813a, type: 3}
+    - {fileID: 8300000, guid: 15435b493166d412280793b90b63e9e5, type: 3}
+    - {fileID: 8300000, guid: 3b466c02f0e434efa8ca59aeed27e20d, type: 3}
+    - {fileID: 8300000, guid: c6117d99f1dd9469184003a818544cc7, type: 3}
+    volume: 0.7
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0.02
+    maxVoices: 3
+    priority: 120
+    lowpassHz: 0
+    pitchJitter: 0.08
+  - key: intruder.death
+    clips:
+    - {fileID: 8300000, guid: f42c300255a7f4f8893ff3d30b0aff15, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 20
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: intruder.pain
+    clips:
+    - {fileID: 8300000, guid: 3da10d02b502e4fd5a6dc76923dc234d, type: 3}
+    - {fileID: 8300000, guid: 785f50b1a01a3400488fbe6593cc89e3, type: 3}
+    - {fileID: 8300000, guid: 3624ad0d0029b444fa37d40b9e436343, type: 3}
+    - {fileID: 8300000, guid: 3ed722539636c4d228ab480034ec1e45, type: 3}
+    - {fileID: 8300000, guid: 93ff3946552ee4b8192877f627784d31, type: 3}
+    - {fileID: 8300000, guid: 8fe57bb8e6aac40749fe8c2de9f219f2, type: 3}
+    volume: 0.9
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0.35
+    maxVoices: 1
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: intruder.pain.scream
+    clips:
+    - {fileID: 8300000, guid: 68cf60dbcc2c443b68448fccc12dc6f1, type: 3}
+    - {fileID: 8300000, guid: c1c31c1cc23184b348990728fd63ed81, type: 3}
+    - {fileID: 8300000, guid: 38925accc125d49d1ba90925a3fa6324, type: 3}
+    - {fileID: 8300000, guid: 03370c994c7af4ca4afeb4ae046d8667, type: 3}
+    volume: 0.9
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0.35
+    maxVoices: 1
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: intruder.step
+    clips:
+    - {fileID: 8300000, guid: d971712d2dbde47f68100ce18cf9e602, type: 3}
+    - {fileID: 8300000, guid: 7b966db13d5504a6d8540d2c9f04ca34, type: 3}
+    - {fileID: 8300000, guid: f4a29e31f3a63406f99f913fd74bf6ca, type: 3}
+    - {fileID: 8300000, guid: 2feb15d5bfc164dca895f84b7c53f6bf, type: 3}
+    - {fileID: 8300000, guid: 2fabff37fe1c34a70a0277cbeb629f82, type: 3}
+    - {fileID: 8300000, guid: 29ef297aa591642abb8c9ecdfa0ba10c, type: 3}
+    - {fileID: 8300000, guid: 6abac9ab74e344301aed48b65660789d, type: 3}
+    - {fileID: 8300000, guid: 653d8a15a21f14f268fe81bc5be1cf19, type: 3}
+    volume: 0.45
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 15
+    cooldown: 0.12
+    maxVoices: 2
+    priority: 220
+    lowpassHz: 0
+    pitchJitter: 0.07
+  - key: intruder.step.run
+    clips:
+    - {fileID: 8300000, guid: 133164ab268ce4ec0a739ab96a194d6f, type: 3}
+    - {fileID: 8300000, guid: 9510d74ed2ed24a94974240b3f17c5db, type: 3}
+    - {fileID: 8300000, guid: a5c703cb400df449d9d301b610959a1e, type: 3}
+    - {fileID: 8300000, guid: 9bd77f7f7e104406da566d1e146ba1d4, type: 3}
+    - {fileID: 8300000, guid: 437d9cfba480642349f1859282adff7b, type: 3}
+    - {fileID: 8300000, guid: 7d820f46fd9df4886a2e7ef033c01971, type: 3}
+    volume: 0.45
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 15
+    cooldown: 0.12
+    maxVoices: 2
+    priority: 220
+    lowpassHz: 0
+    pitchJitter: 0.07
+  - key: intruder.swing
+    clips:
+    - {fileID: 8300000, guid: 555e537f78d0445a694e985f7496c87d, type: 3}
+    - {fileID: 8300000, guid: 2f301f86be11c4cbfa0668821227ab76, type: 3}
+    - {fileID: 8300000, guid: 722597926272a4c849fc903d75d96c9a, type: 3}
+    - {fileID: 8300000, guid: aa155bcb249564a4c879482263f76196, type: 3}
+    - {fileID: 8300000, guid: a7510d93a6ed846799f485daa04d3856, type: 3}
+    - {fileID: 8300000, guid: cf3e3d5c05dd64ec89aa38b2abab754e, type: 3}
+    - {fileID: 8300000, guid: 08de0819c165048ef90825f626b3448d, type: 3}
+    - {fileID: 8300000, guid: e63966e75ec5f47d1b3e08f412cab70a, type: 3}
+    volume: 0.75
+    spatial: 1
+    minDistance: 1
+    maxDistance: 20
+    cooldown: 0.3
+    maxVoices: 1
+    priority: 70
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: metal.hit
+    clips:
+    - {fileID: 8300000, guid: 94ee4d26c1b304f06a5c9cb3d743c8f3, type: 3}
+    - {fileID: 8300000, guid: fa9dcec7e8b74477289b74cf0a58f6d5, type: 3}
+    - {fileID: 8300000, guid: 648acdd2407364b2f97f71b30511abc2, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 0
+    priority: 128
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: outcome.bullhorn
+    clips:
+    - {fileID: 8300000, guid: 06f9be19a8f5b454587aec8536fa1fd1, type: 3}
+    volume: 0.7
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0
+    maxVoices: 1
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: outcome.camera
+    clips:
+    - {fileID: 8300000, guid: 7da6003556b6d41f0a3f923a3a38435b, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 1
+    maxDistance: 15
+    cooldown: 0
+    maxVoices: 2
+    priority: 25
+    lowpassHz: 0
+    pitchJitter: 0.03
+  - key: outcome.cardoor
+    clips:
+    - {fileID: 8300000, guid: 8622bf3ffe2c74f06aa05d99b52bb6cc, type: 3}
+    volume: 0.7
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0
+    maxVoices: 1
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: outcome.radio
+    clips:
+    - {fileID: 8300000, guid: 116520a2c91734626a3bc50ea4db5b65, type: 3}
+    volume: 0.7
+    spatial: 1
+    minDistance: 1
+    maxDistance: 30
+    cooldown: 0
+    maxVoices: 1
+    priority: 30
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: outcome.rotor
+    clips:
+    - {fileID: 8300000, guid: 80b3d893db01540e4af0d0c1d0a6781b, type: 3}
+    volume: 0.6
+    spatial: 1
+    minDistance: 12
+    maxDistance: 150
+    cooldown: 0
+    maxVoices: 1
+    priority: 22
+    lowpassHz: 1600
+    pitchJitter: 0
+  - key: outcome.siren
+    clips:
+    - {fileID: 8300000, guid: 9eb4d1392d85744c1b978962a34f107f, type: 3}
+    volume: 0.28
+    spatial: 1
+    minDistance: 4
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 6
+    priority: 20
+    lowpassHz: 2000
+    pitchJitter: 0
+  - key: outcome.siren.pa
+    clips:
+    - {fileID: 8300000, guid: 1fb8d4a60090748e39b3c95fff117cba, type: 3}
+    volume: 0.3
+    spatial: 1
+    minDistance: 4
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 4
+    priority: 20
+    lowpassHz: 2600
+    pitchJitter: 0
+  - key: pistol.empty
+    clips:
+    - {fileID: 8300000, guid: 6a596ac80e852435d8c5d8db3da7d21f, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.4
+    maxDistance: 12
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: pistol.magin
+    clips:
+    - {fileID: 8300000, guid: f048277dcf75842a9bc8fd5665a1ef1b, type: 3}
+    - {fileID: 8300000, guid: ef8a21fa3a763406ea5c634cd8257685, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.4
+    maxDistance: 12
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: pistol.magout
+    clips:
+    - {fileID: 8300000, guid: 3002b243d634544119ff66ed4aabdb36, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.4
+    maxDistance: 12
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: pistol.rack
+    clips:
+    - {fileID: 8300000, guid: 97f6d07e1dcc842bd8b2df3a767b38cf, type: 3}
+    - {fileID: 8300000, guid: 67f60915f17144c2ca6e25fadfb19062, type: 3}
+    - {fileID: 8300000, guid: f6a451b4ecfe740f38c3a8133535ab32, type: 3}
+    - {fileID: 8300000, guid: 206610bfa22e64b76a2eb7ae5359d3ba, type: 3}
+    - {fileID: 8300000, guid: 2878fc096176d4e04b690f6c9b4f2e00, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.4
+    maxDistance: 12
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: pistol.shot
+    clips:
+    - {fileID: 8300000, guid: fda6c41f0b87b4e10a59f9e29feea2c5, type: 3}
+    - {fileID: 8300000, guid: 6fd58d9337660451890bd85c6bbedfed, type: 3}
+    - {fileID: 8300000, guid: 1034df223127a465e94c3d406c5cfedb, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1.5
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 4
+    priority: 0
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: pistol.slidelock
+    clips:
+    - {fileID: 8300000, guid: 86080c714875a44d7bd2a778a5f02b3f, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.4
+    maxDistance: 12
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: pistol.sliderelease
+    clips:
+    - {fileID: 8300000, guid: 6e3d9f7fd22e04919979d937c9392b39, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.4
+    maxDistance: 12
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: player.hit
+    clips:
+    - {fileID: 8300000, guid: 18e48df50ec1243e3ad6101e0662d6fd, type: 3}
+    - {fileID: 8300000, guid: 03fdf33f97aee4b08a0c85bc92d3f488, type: 3}
+    volume: 0.9
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0.08
+    maxVoices: 1
+    priority: 20
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: radio.squelch
+    clips:
+    - {fileID: 8300000, guid: 93785b2dfd13a432c818497db2c211ce, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 0
+    priority: 128
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: shotgun.empty
+    clips:
+    - {fileID: 8300000, guid: 9f6582a31eb0748f89feb6dc0690295d, type: 3}
+    volume: 0.85
+    spatial: 1
+    minDistance: 0.4
+    maxDistance: 12
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: shotgun.rack
+    clips:
+    - {fileID: 8300000, guid: 901831dd2875d414c94a6d4fa5312129, type: 3}
+    - {fileID: 8300000, guid: b53bfa8f825e14264a54b1c18d47874d, type: 3}
+    - {fileID: 8300000, guid: c540a1191c3f4443ab23175867998bf1, type: 3}
+    - {fileID: 8300000, guid: f2447c562d6384e0e81f2fd9ff529033, type: 3}
+    volume: 0.85
+    spatial: 1
+    minDistance: 0.4
+    maxDistance: 12
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: shotgun.shellin
+    clips:
+    - {fileID: 8300000, guid: 97e3d0aec41ca4cc295baaa14025e519, type: 3}
+    - {fileID: 8300000, guid: 057ef618e1743415e9a11700f775f95b, type: 3}
+    - {fileID: 8300000, guid: eb46cda4af07d4248b5ab99673a75ec6, type: 3}
+    - {fileID: 8300000, guid: a336fda2e0c0d4385b13c150e6af7883, type: 3}
+    volume: 0.85
+    spatial: 1
+    minDistance: 0.4
+    maxDistance: 12
+    cooldown: 0.05
+    maxVoices: 2
+    priority: 60
+    lowpassHz: 0
+    pitchJitter: 0.04
+  - key: shotgun.shot
+    clips:
+    - {fileID: 8300000, guid: f5840570343ff44ba8b3bf0137b62783, type: 3}
+    - {fileID: 8300000, guid: 5207f5cfa9ed040a0b7184c993181c8d, type: 3}
+    - {fileID: 8300000, guid: 882df0bab93c84484b7cce0340bf8492, type: 3}
+    - {fileID: 8300000, guid: f91d551fff3e74edb943ec44a0293adb, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1.5
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 3
+    priority: 0
+    lowpassHz: 0
+    pitchJitter: 0.03
+  - key: steps.gravel
+    clips:
+    - {fileID: 8300000, guid: c4acd656194b84a9a8e45b3ec5999a13, type: 3}
+    - {fileID: 8300000, guid: 2479deecd300e46ec808384c37e31089, type: 3}
+    - {fileID: 8300000, guid: 9e90e07838f834548868960a8fca3c4d, type: 3}
+    - {fileID: 8300000, guid: 429b7422874fc45bb93cc7826d64434a, type: 3}
+    - {fileID: 8300000, guid: aaa070c93cf1c4b259bcd4f1fad1d3dd, type: 3}
+    volume: 0.55
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 15
+    cooldown: 0.12
+    maxVoices: 2
+    priority: 210
+    lowpassHz: 0
+    pitchJitter: 0.07
+  - key: taser.crackle
+    clips:
+    - {fileID: 8300000, guid: 465d25fd185cd4b5cab734069f1d1b19, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 0.6
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 0
+    priority: 128
+    lowpassHz: 0
+    pitchJitter: 0.05
+  - key: vo.attacker.door
+    clips:
+    - {fileID: 8300000, guid: 49f750dc22268479394b376c91a88381, type: 3}
+    - {fileID: 8300000, guid: d012178a56465447e9dc393f51d1d0a3, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.attacker.makeme
+    clips:
+    - {fileID: 8300000, guid: 7f7cf50ef4b254b89a8db20034dc41d0, type: 3}
+    - {fileID: 8300000, guid: 365b2021aa98e491aa18d8c029c2eda7, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.attacker.surrender.down
+    clips:
+    - {fileID: 8300000, guid: a70b0af525b8d4fe1ab298771d0c390e, type: 3}
+    - {fileID: 8300000, guid: 6b6a84d0e4dfe4691955fc07b926120f, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.attacker.surrender.easy
+    clips:
+    - {fileID: 8300000, guid: 9198a1e4d9b9a49f18c1fb5534df3bb0, type: 3}
+    - {fileID: 8300000, guid: ebe5250591f9b401f9f39f22e24768cd, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.attacker.surrender.nostab
+    clips:
+    - {fileID: 8300000, guid: 8599055a52ba447b09d0f2d314efdd2a, type: 3}
+    - {fileID: 8300000, guid: a0bec368dd17648459c46f1aabfe9ad4, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.attacker.surrender.ok
+    clips:
+    - {fileID: 8300000, guid: 721cb2d4be74f4277be34d12aae275d2, type: 3}
+    - {fileID: 8300000, guid: f301a27a1c1f54c3bb643382d076facc, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.attacker.taunt
+    clips:
+    - {fileID: 8300000, guid: 951030d3f8dce4d0cbbd5bb8fcfdd97f, type: 3}
+    - {fileID: 8300000, guid: 17ccb29122db24bd9822ea64862a85d1, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.brother.door
+    clips:
+    - {fileID: 8300000, guid: ee4ff437b92ad490a9133fa1f7eb8448, type: 3}
+    - {fileID: 8300000, guid: 76811016362c6411cb7747c8c52c85fc, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.brother.door.leave
+    clips:
+    - {fileID: 8300000, guid: 1277c3c00dbf042fab2fbc78639b45ec, type: 3}
+    - {fileID: 8300000, guid: 2543706f6adb544f48a47eac5de147b3, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.brother.easy
+    clips:
+    - {fileID: 8300000, guid: dfb50fc9035704b6594aa53c9e18869e, type: 3}
+    - {fileID: 8300000, guid: 9e96f9d044809427dbda1b328a511420, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.brother.hello
+    clips:
+    - {fileID: 8300000, guid: 86a7e1ba894494991a33c8fbe921b5b2, type: 3}
+    - {fileID: 8300000, guid: 773cd11840bb44842a63dbb1be80a6a0, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.brother.itsme
+    clips:
+    - {fileID: 8300000, guid: a2ffac279823b4e809bd9a01a59e91cd, type: 3}
+    - {fileID: 8300000, guid: 1fc511361037c4ffab34b06fb8a0c4e9, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.brother.leave
+    clips:
+    - {fileID: 8300000, guid: 0b05c0f3782114c30b9bfad7b8f3a524, type: 3}
+    - {fileID: 8300000, guid: 5e1dca260c73d4b75a29fd16ba09e874, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.brother.shot
+    clips:
+    - {fileID: 8300000, guid: afde68db9e056444c8ed0c67cccfbae5, type: 3}
+    - {fileID: 8300000, guid: 14d62f7fbc24941609f7cb23d663925f, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.burglar.cornered
+    clips:
+    - {fileID: 8300000, guid: 6e80926f9d6a947b891d2bbaa8d78456, type: 3}
+    - {fileID: 8300000, guid: b1a95b364efc246a2843f76f19b7610f, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.burglar.flee
+    clips:
+    - {fileID: 8300000, guid: adca614885dc34e409177be39068caee, type: 3}
+    - {fileID: 8300000, guid: a9e35b3848fd0454e98ca791f4fb0f92, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.burglar.leaving
+    clips:
+    - {fileID: 8300000, guid: 0de143e067b5948709d58e2765e9e0e1, type: 3}
+    - {fileID: 8300000, guid: a95cbd0010aad4107baf52506be4f375, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.burglar.shot
+    clips:
+    - {fileID: 8300000, guid: b9e6a2d523eb04b8c8700f49b88015c6, type: 3}
+    - {fileID: 8300000, guid: b019bcafb92f8446381ac5e238cb7cd8, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.burglar.whoa
+    clips:
+    - {fileID: 8300000, guid: 2f690328d8c6c4d78ac6d503d7bd10ec, type: 3}
+    - {fileID: 8300000, guid: f169cd7ebeb3d4797a5e171b4a2f2fab, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.book.soap
+    clips:
+    - {fileID: 8300000, guid: 4d588e210886140d39f7da579dd8150c, type: 3}
+    - {fileID: 8300000, guid: 2f7e0b97cfd294b9fbd2f3e0ceb68166, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.bullhorn.coming
+    clips:
+    - {fileID: 8300000, guid: 0baaa1e83b83e43b8bb4bf8f5c80ef1a, type: 3}
+    - {fileID: 8300000, guid: ee7bc2fa9765a454a9fbc0f1a4913b9a, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.bullhorn.weapons
+    clips:
+    - {fileID: 8300000, guid: ce8a1d992dcbf4b999752271245685a8, type: 3}
+    - {fileID: 8300000, guid: ddd201d505b8b415bae051bd7bdd3544, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.cover.contact
+    clips:
+    - {fileID: 8300000, guid: 92b1e8ddcabcd4d6594f02823cc4fc77, type: 3}
+    - {fileID: 8300000, guid: 66ad08915b08d48aba363de944fe367c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.cover.gun
+    clips:
+    - {fileID: 8300000, guid: 0cdf4d0bf267a41fc9bacdf4f79eaf70, type: 3}
+    - {fileID: 8300000, guid: 39174fd514dcd48c2ad9a57a6f8ffc74, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.cover.gunup
+    clips:
+    - {fileID: 8300000, guid: 015bd8eab38bc4f709687cb0ecefec55, type: 3}
+    - {fileID: 8300000, guid: d6eebbfc880d744cab495703eec0f0a2, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.cover.hit
+    clips:
+    - {fileID: 8300000, guid: 4101d740bcf8a4f90b551d8a37dd0301, type: 3}
+    - {fileID: 8300000, guid: 6212f996561e94540a537fd65a1c28b6, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.cover.officerdown
+    clips:
+    - {fileID: 8300000, guid: 08940b0f5f1a84783ba281881b7b95a5, type: 3}
+    - {fileID: 8300000, guid: 442da4be1a6f64591b92454ae6962c98, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.cover.suspectdown
+    clips:
+    - {fileID: 8300000, guid: 680047dac7b19486781c20115eb23220, type: 3}
+    - {fileID: 8300000, guid: 444e85afd27614f54a01a1c1167abb9e, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.cover.taser
+    clips:
+    - {fileID: 8300000, guid: 65052f57145a546b9a678dde28eac94c, type: 3}
+    - {fileID: 8300000, guid: b2d121e58d38d4f8c83eaba21de008a3, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.announce
+    clips:
+    - {fileID: 8300000, guid: 84bb73f4a360e4857bd4b21f59b9fe37, type: 3}
+    - {fileID: 8300000, guid: b7099c60839be4dd8b6bc3bb6ced2cab, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.arrest
+    clips:
+    - {fileID: 8300000, guid: c01f553f8a29749bebd931ef29fc768b, type: 3}
+    - {fileID: 8300000, guid: 78b87b2688b974d4c8bffdb0dd15126d, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.breach
+    clips:
+    - {fileID: 8300000, guid: aa7ad2a8fece241caac170f69b4fdf08, type: 3}
+    - {fileID: 8300000, guid: 20308a515dfc84759b5bfb994e6155f0, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.coming
+    clips:
+    - {fileID: 8300000, guid: c002cad35cde249358e9ea3242af998b, type: 3}
+    - {fileID: 8300000, guid: 53c6c39194d8b4897a8ecb9a63b245b8, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.dontdoit
+    clips:
+    - {fileID: 8300000, guid: bab0a7feb42b549eca224dd537277dde, type: 3}
+    - {fileID: 8300000, guid: a0bd42d38df78472ba5ac68f72305ce5, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.drop.1
+    clips:
+    - {fileID: 8300000, guid: d75a7b28577bd4f10bdb284c83c46a49, type: 3}
+    - {fileID: 8300000, guid: a9007032cba3242c4a65244d927b21cf, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.drop.2
+    clips:
+    - {fileID: 8300000, guid: e05373970319b44e1af0c1679da5a98a, type: 3}
+    - {fileID: 8300000, guid: 208821822fb43405cabd18b561684325, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.drop.3
+    clips:
+    - {fileID: 8300000, guid: e1cdb8249fe1f4f32bafc8a1b97b36c8, type: 3}
+    - {fileID: 8300000, guid: d5ea88e6bb62346918c988578ea45f3a, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.entry
+    clips:
+    - {fileID: 8300000, guid: 61513f69fee60470aa11126d28719655, type: 3}
+    - {fileID: 8300000, guid: 948ee55b84cbd450c8dba6c6d137704d, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.good
+    clips:
+    - {fileID: 8300000, guid: 1d5db9478a8cd437fbf27b1055a204f9, type: 3}
+    - {fileID: 8300000, guid: 2d15a327fa1754c6eb69e38db41eecca, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.hands.1
+    clips:
+    - {fileID: 8300000, guid: ee17ab1cfbabb445db7ac7adeee91cc6, type: 3}
+    - {fileID: 8300000, guid: 3a4353fd6385440b5a02ac0c396c2d5c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.hands.2
+    clips:
+    - {fileID: 8300000, guid: f7e40c0f7d02846b99101fc9aabed3a0, type: 3}
+    - {fileID: 8300000, guid: 02dde6691fa1e4e09b52a1bdd2a7495a, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.hands.3
+    clips:
+    - {fileID: 8300000, guid: e13ef6b36237948ada79dd29502f10ee, type: 3}
+    - {fileID: 8300000, guid: f58024a42909f4ce496a99bb08d8807f, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.handsaway
+    clips:
+    - {fileID: 8300000, guid: 5174adde2b53643568040a44ccb27cac, type: 3}
+    - {fileID: 8300000, guid: f78fdfbe5da6a474cb01fa71a5229c5c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.hit
+    clips:
+    - {fileID: 8300000, guid: d52a0c601b585454da9e9bcef3738345, type: 3}
+    - {fileID: 8300000, guid: 2821393bec9fe47e7870ab83995dfe1f, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.released
+    clips:
+    - {fileID: 8300000, guid: d5260f173b6d342deaebfd9144be30c9, type: 3}
+    - {fileID: 8300000, guid: b189865af9020402fab7a291c00f7966, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.rights
+    clips:
+    - {fileID: 8300000, guid: e3fef8722de0149a3861d4d14c9ae6e7, type: 3}
+    - {fileID: 8300000, guid: 3b137123a6f5f4d48a78553578e56874, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.lead.turn
+    clips:
+    - {fileID: 8300000, guid: 19ffa764283984515a7e6043a5dad76d, type: 3}
+    - {fileID: 8300000, guid: 38d90f89947ed4cbc9bae98d7c25d59a, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.radio.assault
+    clips:
+    - {fileID: 8300000, guid: 65e635a3ff7824de29bb06892e433622, type: 3}
+    - {fileID: 8300000, guid: 853b4367813334b34ac819b5ea93e6a5, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.radio.backup
+    clips:
+    - {fileID: 8300000, guid: f1f2f4bb15c0643ffb7fe00447bf0429, type: 3}
+    - {fileID: 8300000, guid: c4ae09ee3c0b2406e8793bc81a0e2904, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.radio.officerdown
+    clips:
+    - {fileID: 8300000, guid: 24660294e692f44799fdbeb07f6cf8dc, type: 3}
+    - {fileID: 8300000, guid: 95da4c73a942d42ff8bb311e7196ac01, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.radio.responding
+    clips:
+    - {fileID: 8300000, guid: 8068f8604d8ae46969416fc8f5f2cf18, type: 3}
+    - {fileID: 8300000, guid: 11893d3443eba46d581f7be978d5deb7, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.radio.stabbing
+    clips:
+    - {fileID: 8300000, guid: 7a50783fdb70c442d9bd8dbfe5544d35, type: 3}
+    - {fileID: 8300000, guid: e3f10f61b13c647cc8c1789ee2b53ae3, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.radio.suspectdown
+    clips:
+    - {fileID: 8300000, guid: fc1806475cd2e4768a7a72db7cf653ed, type: 3}
+    - {fileID: 8300000, guid: ef4bf841cdb5b40c997e203913060afc, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.radio.swat
+    clips:
+    - {fileID: 8300000, guid: 519c525d305b544a887aeb748cee1171, type: 3}
+    - {fileID: 8300000, guid: 14f938746f17d4e359b7814e4a183e09, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.swat.contact
+    clips:
+    - {fileID: 8300000, guid: 9f48966fcf4144619977f9162a7eee9e, type: 3}
+    - {fileID: 8300000, guid: b52e519a8c70f4dcfa44f767efefed86, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.swat.entry
+    clips:
+    - {fileID: 8300000, guid: 640646341881e41cd9d4beff9fe2ea1f, type: 3}
+    - {fileID: 8300000, guid: fd61788aeee004ef2b083f7924cd1e59, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.cop.swat.hands
+    clips:
+    - {fileID: 8300000, guid: 7e8c83ef043b342c0a2d068c311ab058, type: 3}
+    - {fileID: 8300000, guid: 67119a34c9666455598325aa6c6d81ec, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.courier.hello
+    clips:
+    - {fileID: 8300000, guid: b152871e314434dcfa2afb485058f4ae, type: 3}
+    - {fileID: 8300000, guid: edda235c8687d4d6b94471e655101071, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.delivery.hello
+    clips:
+    - {fileID: 8300000, guid: 1f9f9c71dad1342f69a67f4718fea249, type: 3}
+    - {fileID: 8300000, guid: 881b92f903b354bac8ecd41fe8524600, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.door
+    clips:
+    - {fileID: 8300000, guid: f542168f0df84434b8228b5f43712ee1, type: 3}
+    - {fileID: 8300000, guid: b25943020f60d40ab94d1b3708c7d740, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.easy
+    clips:
+    - {fileID: 8300000, guid: c730adeff105e4f18b815adf9196922a, type: 3}
+    - {fileID: 8300000, guid: c249d3d6c4b044a6fb1c805fbcc9e04d, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.breathing
+    clips:
+    - {fileID: 8300000, guid: c769fc9f7a47e474f995f0f4a2c26e01, type: 3}
+    - {fileID: 8300000, guid: 1697264ad8f49446f8396a3ad5e72370, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.check
+    clips:
+    - {fileID: 8300000, guid: 4bea1d605c09548d982e32bd8c4b7b75, type: 3}
+    - {fileID: 8300000, guid: a0bc1398b0b794dc090942e8c00704e3, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.door
+    clips:
+    - {fileID: 8300000, guid: 37c10271c6ac8463a88ce5c909795818, type: 3}
+    - {fileID: 8300000, guid: 9c18f1f349cfe4ce584f0db9050a9eae, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.draw
+    clips:
+    - {fileID: 8300000, guid: 2d41e64d6ad4b4153b094757133cfd18, type: 3}
+    - {fileID: 8300000, guid: d23b98e03d8aa4cb496ea73e22f1d8ae, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.dry
+    clips:
+    - {fileID: 8300000, guid: 8c9dc029af69749f7bf39c1299b9d803, type: 3}
+    - {fileID: 8300000, guid: 18f07dec8c2224dbe8aa5708f8ceb0fd, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.hello
+    clips:
+    - {fileID: 8300000, guid: e14e5ea73aa224a80b1798c211dde899, type: 3}
+    - {fileID: 8300000, guid: 337c9ae09378f40f0b58af0588ec6a60, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.holster
+    clips:
+    - {fileID: 8300000, guid: f2a3651b20a924f809ca32dbf075b6fd, type: 3}
+    - {fileID: 8300000, guid: 15df1469ae6484b56b4bfcac4c9506a6, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.knife
+    clips:
+    - {fileID: 8300000, guid: edfd34561d0b041b1800682bef0351af, type: 3}
+    - {fileID: 8300000, guid: c0787a0d2767b47ed9e800d3274c12dc, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.lock
+    clips:
+    - {fileID: 8300000, guid: a84fc7de3b7bc447a98656e048704a21, type: 3}
+    - {fileID: 8300000, guid: 255ba89d12df449b195a828d72e5003c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.longgun
+    clips:
+    - {fileID: 8300000, guid: 14600cf938ac44684a41437586f4eb4d, type: 3}
+    - {fileID: 8300000, guid: f622ee7d1590f408e944cf458857497a, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.oneround
+    clips:
+    - {fileID: 8300000, guid: c5780b97d9836475c99b0a6e9ef014a7, type: 3}
+    - {fileID: 8300000, guid: 04e9d2fc0dba9464ab1bcc74be7db297, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.pump
+    clips:
+    - {fileID: 8300000, guid: 0c6081a96d60d406dacf9cabffb4609d, type: 3}
+    - {fileID: 8300000, guid: 61836321250cb47258713ad84132bf64, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.reloadit
+    clips:
+    - {fileID: 8300000, guid: 86a2855fdacb04a03ade9510c28a6aec, type: 3}
+    - {fileID: 8300000, guid: 958b619635f7a4a4fa5cfec53fda7c69, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.ricky
+    clips:
+    - {fileID: 8300000, guid: 5313d2761899849e0a7e0beb35c55f48, type: 3}
+    - {fileID: 8300000, guid: 3251ade7d65c94be2a150d2a761c3066, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.skip
+    clips:
+    - {fileID: 8300000, guid: a3e192a5e36cb458a991b903ec4b6248, type: 3}
+    - {fileID: 8300000, guid: c83f51b7260114e3d9320ab08c7fbd82, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.stand
+    clips:
+    - {fileID: 8300000, guid: ca5fe2ad97d1d4990a9f4051e84be5b7, type: 3}
+    - {fileID: 8300000, guid: 61126b15580714ef59dfc71048116d43, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.three
+    clips:
+    - {fileID: 8300000, guid: 7f81ece63501b4253bf35348297c77ae, type: 3}
+    - {fileID: 8300000, guid: 117440d93e4964a4298735f69769f3ed, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.watchit
+    clips:
+    - {fileID: 8300000, guid: 33e29854877ef4692a233fc45320f607, type: 3}
+    - {fileID: 8300000, guid: e086517f5ec51478f8a1724cbed47299, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.handover.yell
+    clips:
+    - {fileID: 8300000, guid: e3c7e812d07874102be8f7e07a283d48, type: 3}
+    - {fileID: 8300000, guid: 76d94262652894acfab9ac4bf083ce9b, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.hello
+    clips:
+    - {fileID: 8300000, guid: 2d335343eb0bd47538ed3103b77f6b1c, type: 3}
+    - {fileID: 8300000, guid: 386451fc8ce664ba49dcbaee586cbe95, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.itsme
+    clips:
+    - {fileID: 8300000, guid: d1afcde50252846d994ddadbdacb9b30, type: 3}
+    - {fileID: 8300000, guid: 83272eba85b73407ba2413f18842b511, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.knock
+    clips:
+    - {fileID: 8300000, guid: ebead8cd95e2a454a8fd2b34a86902a6, type: 3}
+    - {fileID: 8300000, guid: 4f0643b30f92545e8a80b816f2dc2c21, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.leave
+    clips:
+    - {fileID: 8300000, guid: 7a5c3122290384098abb5ede9133019e, type: 3}
+    - {fileID: 8300000, guid: 786d0f06c185f45868878070cf6c8212, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.breathing
+    clips:
+    - {fileID: 8300000, guid: b6df5e0ecf2db42de976b7f1e45c0fc1, type: 3}
+    - {fileID: 8300000, guid: e7afb32de896e4a698639b092b76beba, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.camera
+    clips:
+    - {fileID: 8300000, guid: aa80455a8ac0e4c54a4fdc5851d283e2, type: 3}
+    - {fileID: 8300000, guid: 2719d77b5962f482e9432ffc36371b9c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.check
+    clips:
+    - {fileID: 8300000, guid: 40c48b1ad3f664fb28679acf9b1bec71, type: 3}
+    - {fileID: 8300000, guid: 457d976505e1049b998f2ba351d1f8bb, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.done
+    clips:
+    - {fileID: 8300000, guid: e26a03ca4907c4cb29d18ca55ce136f9, type: 3}
+    - {fileID: 8300000, guid: 914fd9cc6e8d84721b9ba8f9a2481932, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.door
+    clips:
+    - {fileID: 8300000, guid: 2987de8432f4f40908efa1ec748c9d37, type: 3}
+    - {fileID: 8300000, guid: 12fb87e644a894402952b4a2d549b0ce, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.draw
+    clips:
+    - {fileID: 8300000, guid: 9c607a9de5add4250963a06c66f86b31, type: 3}
+    - {fileID: 8300000, guid: cf8a837adf6574c49872aaefed0b94ce, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.dry
+    clips:
+    - {fileID: 8300000, guid: 81ecc803979644259a0a6264975371e3, type: 3}
+    - {fileID: 8300000, guid: f56cea8e740954e38a5818358cefec0c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.holster
+    clips:
+    - {fileID: 8300000, guid: 3ee1f6fd074774bc8b019ee7782e9553, type: 3}
+    - {fileID: 8300000, guid: dcdf2be4e8d6143caaf242bd7c961edf, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.knife
+    clips:
+    - {fileID: 8300000, guid: ce5fba51d65114e07b4dc268320c817a, type: 3}
+    - {fileID: 8300000, guid: 89b108034c42e471eb7fc2e1438f640b, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.longgun
+    clips:
+    - {fileID: 8300000, guid: 4cc688dda12ef44bd9673e05909698cb, type: 3}
+    - {fileID: 8300000, guid: 3d49b507df3244943b9d3710112f94be, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.menu
+    clips:
+    - {fileID: 8300000, guid: e9f07feecf8074c189517875ee253b54, type: 3}
+    - {fileID: 8300000, guid: 08bf60c3e70814c219557d34fa342de9, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.oneround
+    clips:
+    - {fileID: 8300000, guid: 884c2db4d5b5249f8a5af34b4c39e869, type: 3}
+    - {fileID: 8300000, guid: 9b6fb2c406bd447ae83a20f2e9619b57, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.outfront
+    clips:
+    - {fileID: 8300000, guid: e6b99868af9fb4b2bb23f8401a1ea79f, type: 3}
+    - {fileID: 8300000, guid: 4ad8b750191b5469ca40a2f1de0bfbb2, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.pump
+    clips:
+    - {fileID: 8300000, guid: 140d1e77617c444f5bb0b3274eb9df4f, type: 3}
+    - {fileID: 8300000, guid: 33995abc94abd4515944e1ccefaa82b0, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.relief
+    clips:
+    - {fileID: 8300000, guid: 7e3800ce711074c6198b93fb35fae092, type: 3}
+    - {fileID: 8300000, guid: 3bc50c7555b414292aee9b97a0167eca, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.reloadit
+    clips:
+    - {fileID: 8300000, guid: af4baf230cf39460080614739f3e11aa, type: 3}
+    - {fileID: 8300000, guid: c3bcf010e1cc648c6beca7c07eb5312e, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.ricky
+    clips:
+    - {fileID: 8300000, guid: 64a73b270520943d897c574f6720c572, type: 3}
+    - {fileID: 8300000, guid: 5f1d493dbed8b4877b26c9276810a5e5, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.stand
+    clips:
+    - {fileID: 8300000, guid: d7fc4f1d71b414da1bd436fb5777dcfb, type: 3}
+    - {fileID: 8300000, guid: e23ad5c0a60e7432a9047b2825f56a46, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.three
+    clips:
+    - {fileID: 8300000, guid: 7fd9d7ab7a1f94f4883e8da1653542e3, type: 3}
+    - {fileID: 8300000, guid: 651a662f13e63469d99cd1abec637428, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.walkup
+    clips:
+    - {fileID: 8300000, guid: 02055495582214ab59ef62627a6a36e4, type: 3}
+    - {fileID: 8300000, guid: fa5126d4c7fa64e73bc333d3714c40b4, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.radio.yell
+    clips:
+    - {fileID: 8300000, guid: 19e0a022a96574c81b5609642fcbe399, type: 3}
+    - {fileID: 8300000, guid: e799063d48a934992bb5ee5a6f1099bd, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.deputy.shot
+    clips:
+    - {fileID: 8300000, guid: 2031fc823db654dd9aa432aafbccb2e7, type: 3}
+    - {fileID: 8300000, guid: 1ac8b911518204f629a8903a2c86f832, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.backoff
+    clips:
+    - {fileID: 8300000, guid: ec3e8725047324d97983335ff7ce0759, type: 3}
+    - {fileID: 8300000, guid: 95b928541a9ab4a08a06c5384a65b474, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.dontmove
+    clips:
+    - {fileID: 8300000, guid: bd6147811a6a7412c83c1e4ae81ada8c, type: 3}
+    - {fileID: 8300000, guid: d0b6516b78be1447ebde1b6e6f8fbe54, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.door
+    clips:
+    - {fileID: 8300000, guid: 11dc69ea4610e4449b5af33e58e99314, type: 3}
+    - {fileID: 8300000, guid: f393ce935eca348fe8af83e76e096d9d, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.door.lie
+    clips:
+    - {fileID: 8300000, guid: 2fee7a4231daf41d28978257b638ce0a, type: 3}
+    - {fileID: 8300000, guid: c2abcbe58948049148a983eaa7e28de0, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.dropit
+    clips:
+    - {fileID: 8300000, guid: 85ae547c56b47456aa20b2be90263534, type: 3}
+    - {fileID: 8300000, guid: 320ca66a6443f4935b3a3ca9f9947789, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.flee
+    clips:
+    - {fileID: 8300000, guid: 8673616eb3e64406aba3eee86f401750, type: 3}
+    - {fileID: 8300000, guid: 6444810ba448d4363a2b5f059a8c0f21, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.money
+    clips:
+    - {fileID: 8300000, guid: 16197ffe57ba74e168855bc9797078b8, type: 3}
+    - {fileID: 8300000, guid: e1eac440c9df1497693dfd0547758140, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.putdown
+    clips:
+    - {fileID: 8300000, guid: 6420818c09f92444b93f7ba8100c0cfb, type: 3}
+    - {fileID: 8300000, guid: ca21638db43164f3f8d9474bd8b3c282, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.surrender.down
+    clips:
+    - {fileID: 8300000, guid: c85b5802e920848c98f7aa81c9102c6e, type: 3}
+    - {fileID: 8300000, guid: 42578cd72765b44f1b696fe3813bec30, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.surrender.easy
+    clips:
+    - {fileID: 8300000, guid: 07beee5ca2f2b45638e9969de1ad46d5, type: 3}
+    - {fileID: 8300000, guid: 855a07e1c5d7a4fbda4fc16232acb62c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.surrender.nostab
+    clips:
+    - {fileID: 8300000, guid: b089ce24655f444e586aeed872f1dcc8, type: 3}
+    - {fileID: 8300000, guid: 33700d68b5e86450b8741517e6382f1c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.gunman.surrender.ok
+    clips:
+    - {fileID: 8300000, guid: abedc2310229a429cb13b114dfe7253d, type: 3}
+    - {fileID: 8300000, guid: 1fd2f24e6f90744caadae09dc79b3882, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.hitman.pro.contact
+    clips:
+    - {fileID: 8300000, guid: 9f3d81427ac634519a558451cd496e74, type: 3}
+    - {fileID: 8300000, guid: 00484b7fc8a3c4e62bb4d1ff925961b7, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.hitman.pro.go
+    clips:
+    - {fileID: 8300000, guid: 86f6cfaaa617f42088b9c27100c30cae, type: 3}
+    - {fileID: 8300000, guid: 2d2a726dc1eaa488d83a229bf023ee38, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.hitman.pro.reload
+    clips:
+    - {fileID: 8300000, guid: f6e480cc1e898409ba1e3c394a4148fa, type: 3}
+    - {fileID: 8300000, guid: a6c71eeddbcdf4ef999ab45c8d85c110, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.hitman.pro.where
+    clips:
+    - {fileID: 8300000, guid: 323dbc344bed242f2876c93124b81f5c, type: 3}
+    - {fileID: 8300000, guid: beaabcb2463c342b385c9a62797cf8ff, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.hitman.street.spot
+    clips:
+    - {fileID: 8300000, guid: 8d4ac36f5934c44959992ead6dc7153f, type: 3}
+    - {fileID: 8300000, guid: ca1506888b359446bb2213f1d04aa407, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.hitman.street.where
+    clips:
+    - {fileID: 8300000, guid: f5d08ee01633e4e5cbbe9e0e468e4d2f, type: 3}
+    - {fileID: 8300000, guid: 9c71adb650a7444fabc8df2c909a8eaf, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.knife.door
+    clips:
+    - {fileID: 8300000, guid: 92996e2ab07c74165b130099feaa8dc7, type: 3}
+    - {fileID: 8300000, guid: 851bc3bdc7af8485095f6e052aaef332, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.knife.surrender.down
+    clips:
+    - {fileID: 8300000, guid: feb6d870b416d4540a9696d483610d60, type: 3}
+    - {fileID: 8300000, guid: 37d033957fdfb4defb549e17245cbf82, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.knife.surrender.easy
+    clips:
+    - {fileID: 8300000, guid: 0daf18f8492f341d7809ea6fb9866aa2, type: 3}
+    - {fileID: 8300000, guid: 1f7b449c674da4847be4db83ba81a817, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.knife.surrender.nostab
+    clips:
+    - {fileID: 8300000, guid: 888f8b3b829974f22b10c1dfc1627964, type: 3}
+    - {fileID: 8300000, guid: ad5983774df59498f9651d59e322065c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.knife.surrender.ok
+    clips:
+    - {fileID: 8300000, guid: 30e39e708414a49c38842f3705751c6c, type: 3}
+    - {fileID: 8300000, guid: cc548ef548ade4503b330f56bfada831, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.knife.taunt
+    clips:
+    - {fileID: 8300000, guid: 23b336cba9f4c4644959a4330f58fea9, type: 3}
+    - {fileID: 8300000, guid: c573f11b6b6284f95835134625487a52, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.neighbor.chill
+    clips:
+    - {fileID: 8300000, guid: 0f2ecd09138364d428438f0e527546bb, type: 3}
+    - {fileID: 8300000, guid: bf53eb513f89c4676bb8687300aba4c6, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.neighbor.door
+    clips:
+    - {fileID: 8300000, guid: 032961810378b4b48b8a9a3f3ef12e26, type: 3}
+    - {fileID: 8300000, guid: 48e93730e4d864a13bed8699fe2e82b7, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.neighbor.door.leave
+    clips:
+    - {fileID: 8300000, guid: 1c2794281ce03416587624b6a601d434, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.neighbor.easy
+    clips:
+    - {fileID: 8300000, guid: 619b48ffc838d4180aa8b5b1849994a7, type: 3}
+    - {fileID: 8300000, guid: 00d040ad911e54778a09d4f5a82e4384, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.neighbor.hello
+    clips:
+    - {fileID: 8300000, guid: e0822e6b436294548ab6dae3a9dce4fb, type: 3}
+    - {fileID: 8300000, guid: 0ba92c716d1db485b805bebd75695c1c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.neighbor.itsme
+    clips:
+    - {fileID: 8300000, guid: 53d5edc726c0f4b35880bcc61e25701f, type: 3}
+    - {fileID: 8300000, guid: 0cdccc93b8a96454e9e7204a0e14cd52, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.neighbor.leave
+    clips:
+    - {fileID: 8300000, guid: 14fd222a8f71d4d91810c33e67b0c4d5, type: 3}
+    - {fileID: 8300000, guid: 42b6824e944aa4b4abe5485af3f7efd7, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.neighbor.nostab
+    clips:
+    - {fileID: 8300000, guid: aa75caecb6fb84d15bddc16d4344b0e1, type: 3}
+    - {fileID: 8300000, guid: 38f737d506f544d11ba154246c562aaa, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.neighbor.shot
+    clips:
+    - {fileID: 8300000, guid: 5c0f57127a0de4cc9ac84e7c663be647, type: 3}
+    - {fileID: 8300000, guid: 77b72618e021f4691b628bf11a8166cc, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.player.drop
+    clips:
+    - {fileID: 8300000, guid: d25a5602798784fa29aff1b230936894, type: 3}
+    - {fileID: 8300000, guid: 1ec62e979cd8647d1b88b9a9f42c35ba, type: 3}
+    volume: 1
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0
+    maxVoices: 2
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.player.ground
+    clips:
+    - {fileID: 8300000, guid: 4a287a5c6920a49a193546b1cea1bd18, type: 3}
+    - {fileID: 8300000, guid: 9e62b8f96d10c49999a43a5a32243808, type: 3}
+    volume: 1
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0
+    maxVoices: 2
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.player.hands
+    clips:
+    - {fileID: 8300000, guid: eaa94eaf3e0164d71b768aebd176d244, type: 3}
+    - {fileID: 8300000, guid: e302e382f750242f6804fc75884e86b1, type: 3}
+    volume: 1
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0
+    maxVoices: 2
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.player.marshal.drop
+    clips:
+    - {fileID: 8300000, guid: 09c2b70cf797444558f462d636a7355a, type: 3}
+    - {fileID: 8300000, guid: 234a0d1505ff24a03b0736a433db183c, type: 3}
+    volume: 1
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0
+    maxVoices: 2
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.player.marshal.ground
+    clips:
+    - {fileID: 8300000, guid: 3a9fe9fa8293341d2b42ca88a84aa558, type: 3}
+    - {fileID: 8300000, guid: 59f7c1c9611f6423fb9dfd6d0fb5b039, type: 3}
+    volume: 1
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0
+    maxVoices: 2
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.player.marshal.hands
+    clips:
+    - {fileID: 8300000, guid: 51252b56c69724b8aae6c9609e9d34a5, type: 3}
+    - {fileID: 8300000, guid: 43360747fc7d04b6b9ca12af8011191a, type: 3}
+    volume: 1
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0
+    maxVoices: 2
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.player.marshal.out
+    clips:
+    - {fileID: 8300000, guid: 2768dfc7c576a4accb716e51fe9b762c, type: 3}
+    - {fileID: 8300000, guid: 8b96b8eb455e84bd7bead43fa0d392aa, type: 3}
+    volume: 1
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0
+    maxVoices: 2
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.player.marshal.who
+    clips:
+    - {fileID: 8300000, guid: 47014c7fdb0bb44e3af5c613c003a908, type: 3}
+    - {fileID: 8300000, guid: 7a3098d03f3cb4f36a57eee19dbb58d7, type: 3}
+    volume: 1
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0
+    maxVoices: 2
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.player.out
+    clips:
+    - {fileID: 8300000, guid: 96236d92fd81e48c4bb3e7c178cdfee6, type: 3}
+    - {fileID: 8300000, guid: 3034b0121aafe4c15b700e2d04e041bd, type: 3}
+    volume: 1
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0
+    maxVoices: 2
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.player.who
+    clips:
+    - {fileID: 8300000, guid: 8b672cdf96f8948bea95593d5470070b, type: 3}
+    - {fileID: 8300000, guid: b12e851c8d7d843559eb9a89a4759f5f, type: 3}
+    volume: 1
+    spatial: 0
+    minDistance: 1
+    maxDistance: 10
+    cooldown: 0
+    maxVoices: 2
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.police.camera
+    clips:
+    - {fileID: 8300000, guid: 08a6cc1f72cc94f45aa4f75f733ab260, type: 3}
+    - {fileID: 8300000, guid: cd8d92073319a4792add5a747551e0c3, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.charge.adw
+    clips:
+    - {fileID: 8300000, guid: 2f4642fcef36142c6ad25b92e8401c2a, type: 3}
+    - {fileID: 8300000, guid: 21adec90b5ec14cd29195f10f44c510a, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.charge.battery
+    clips:
+    - {fileID: 8300000, guid: aa508e2e7918743adbdf122191593226, type: 3}
+    - {fileID: 8300000, guid: 1d565d6854403434a85f9018d87d2db1, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.charge.manslaughter
+    clips:
+    - {fileID: 8300000, guid: a89ae3609e66a41f68ff1b18c09817c7, type: 3}
+    - {fileID: 8300000, guid: 8991528468240414a8b48154cf7923da, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.custody
+    clips:
+    - {fileID: 8300000, guid: cffa22803a52b4208b56df087bf14a84, type: 3}
+    - {fileID: 8300000, guid: e3a336deec5154af5aaf9c80ca9fdda5, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.handsup
+    clips:
+    - {fileID: 8300000, guid: 50968ae118fea445d872dde3fe00c132, type: 3}
+    - {fileID: 8300000, guid: db6a2e61e8f4343dd8753ea4a5d50e9d, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.heli.bill
+    clips:
+    - {fileID: 8300000, guid: c50baca831b654bed85e4e94f6b0a2e1, type: 3}
+    - {fileID: 8300000, guid: 6d5c97297120b44ce9e1a14e44cdff71, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.heli.judging
+    clips:
+    - {fileID: 8300000, guid: bf075e76c8d954e2785e25365d72b9e7, type: 3}
+    - {fileID: 8300000, guid: 0d6035591855648af9587ccdd037695a, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.heli.pilot
+    clips:
+    - {fileID: 8300000, guid: d4157e19e6c2344c39f4a42fc82f91aa, type: 3}
+    - {fileID: 8300000, guid: bf55237b58bb84480aba0f209c1da68b, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.heli.spotlight
+    clips:
+    - {fileID: 8300000, guid: 90ccf269bb80a43aab8669bff451ec38, type: 3}
+    - {fileID: 8300000, guid: 5250c5bd689da4754958a7e9befd83d7, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.heli.thermal
+    clips:
+    - {fileID: 8300000, guid: e394f739938d14db7ae7284a12e58d02, type: 3}
+    - {fileID: 8300000, guid: 4891c062d7c334cbdb1504e849d93058, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.heli.wave
+    clips:
+    - {fileID: 8300000, guid: d8a417b3f56a841b7ad1498cb6142126, type: 3}
+    - {fileID: 8300000, guid: a5f1da1a821d14803830da325d411e2e, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.neighbors
+    clips:
+    - {fileID: 8300000, guid: f768226beb0714b3f973e1d01751f726, type: 3}
+    - {fileID: 8300000, guid: 25f262632af3a4109bf919909f256870, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.surround
+    clips:
+    - {fileID: 8300000, guid: 19b7cc63f2f974ea5ac686b67247c306, type: 3}
+    - {fileID: 8300000, guid: a9bc663b19ceb4bada86cff974bbddc3, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.turn
+    clips:
+    - {fileID: 8300000, guid: 214647f6384694c819599e0e0a0d15d0, type: 3}
+    - {fileID: 8300000, guid: ca1ab4489555a4b1da95e11b28732085, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.turn.other
+    clips:
+    - {fileID: 8300000, guid: b2b94f9ac3a0047bbbb42ba633b5a72b, type: 3}
+    - {fileID: 8300000, guid: 73f61da3ef600477aa55c7754a8a1513, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.police.window
+    clips:
+    - {fileID: 8300000, guid: fae2867606e544f019728067208e682b, type: 3}
+    - {fileID: 8300000, guid: 10314c3e4a295402a8303a24f5f8555b, type: 3}
+    volume: 0.8
+    spatial: 1
+    minDistance: 3
+    maxDistance: 60
+    cooldown: 0
+    maxVoices: 1
+    priority: 15
+    lowpassHz: 3000
+    pitchJitter: 0
+  - key: vo.relief.door
+    clips:
+    - {fileID: 8300000, guid: ce396e791f63c493d952c35a6fc7f2f1, type: 3}
+    - {fileID: 8300000, guid: 6b379ecfdf856498b9125f9e86b136d4, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.relief.easy
+    clips:
+    - {fileID: 8300000, guid: 07f487785261d426d95f8a8658d4da31, type: 3}
+    - {fileID: 8300000, guid: 5309393d72b314805b4238f0ece45da6, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.relief.hello
+    clips:
+    - {fileID: 8300000, guid: 50ea2d6a1693841febc633cdbe0e11ed, type: 3}
+    - {fileID: 8300000, guid: cb4926b85cad74b969af34423c6712a4, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.relief.itsme
+    clips:
+    - {fileID: 8300000, guid: 131c4b660b4fd41fdb1961cb8bb9a4a2, type: 3}
+    - {fileID: 8300000, guid: be8b33522daf647b3ac4093c8ab7bc03, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.relief.knock
+    clips:
+    - {fileID: 8300000, guid: 7a264506e3e464c508291dfb9a2cff65, type: 3}
+    - {fileID: 8300000, guid: a3172ec3b68c04fa09e759087aa95f5d, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.relief.shot
+    clips:
+    - {fileID: 8300000, guid: 4bbbdd01dd3f3464c9cf9823d0bcf390, type: 3}
+    - {fileID: 8300000, guid: 3a11cfa99e31748229fce9edd2107d5a, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.beg
+    clips:
+    - {fileID: 8300000, guid: 15635bcc1590a4eccad50016490b0cf3, type: 3}
+    - {fileID: 8300000, guid: b7b11c1b207f44d1ca78a4952e31b8d8, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.car
+    clips:
+    - {fileID: 8300000, guid: 0175bb602735d4be4b7d9eafd07ec644, type: 3}
+    - {fileID: 8300000, guid: 4a4d3dd7b9b9943ea9e6ede77f96a06e, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.car2
+    clips:
+    - {fileID: 8300000, guid: b673e173d7ce0497ab6ebbf96c463fde, type: 3}
+    - {fileID: 8300000, guid: f081b7c55b3054e4ab775275254c18d5, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.car3
+    clips:
+    - {fileID: 8300000, guid: 628a7ee8de53b4955b6b7863f949b783, type: 3}
+    - {fileID: 8300000, guid: 0b05fa7b8d1b44cb6bceb0f9c09b0bf3, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.car4
+    clips:
+    - {fileID: 8300000, guid: d1e71a67f3dd040dbad83789e6571c25, type: 3}
+    - {fileID: 8300000, guid: 6c6dba6ab8b1f42acadbf6a43b24d9f7, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.car5
+    clips:
+    - {fileID: 8300000, guid: baae6315373254e51a01d605b247ec33, type: 3}
+    - {fileID: 8300000, guid: ac5bc54c5f98d4b8bb18516a1c2ba654, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.down
+    clips:
+    - {fileID: 8300000, guid: 5370f377722d74f02baf57eff090f5ff, type: 3}
+    - {fileID: 8300000, guid: b1bc4871cf1e841eab94d1bb99276aa7, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.hit
+    clips:
+    - {fileID: 8300000, guid: 53a9bda77a92d4ae6b0c0ddfc6190972, type: 3}
+    - {fileID: 8300000, guid: ec192cbf53c254ce69233e00d4d142b2, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.knock
+    clips:
+    - {fileID: 8300000, guid: 31221552815244b10b19d018cab76430, type: 3}
+    - {fileID: 8300000, guid: 6b1f8adc564584b84837ec20329d2ff8, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.newguy
+    clips:
+    - {fileID: 8300000, guid: 994694d0fa6fd4c1b98ac9df65a48691, type: 3}
+    - {fileID: 8300000, guid: e30fd49baac714901aca7a765d177c10, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.ricky.watchit
+    clips:
+    - {fileID: 8300000, guid: 2ed79258d1ae64f73b5ab408523c328b, type: 3}
+    - {fileID: 8300000, guid: c4874e180d25649d990566d1e407ad35, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.surrender.chill
+    clips:
+    - {fileID: 8300000, guid: 80abac0f849494668a342bbed70fed05, type: 3}
+    - {fileID: 8300000, guid: edeb634faf2984bd7b1a34ec97e6c28a, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.surrender.door
+    clips:
+    - {fileID: 8300000, guid: ef7952da3e3834b8ab70e3f16bb02f84, type: 3}
+    - {fileID: 8300000, guid: 30536e5fabb074a6d8969bbbecaf8040, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.surrender.down
+    clips:
+    - {fileID: 8300000, guid: 4512340a9ce694be490535d53a2f80fc, type: 3}
+    - {fileID: 8300000, guid: 46c6f0b093b764607930456f06549808, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.surrender.easy
+    clips:
+    - {fileID: 8300000, guid: 75281cda6ae654032a7731b808a24927, type: 3}
+    - {fileID: 8300000, guid: 0d43dd598964148c2b5a09e4fd1b830c, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.surrender.giveup
+    clips:
+    - {fileID: 8300000, guid: 15f8a4f8d91f64d6fb931a4856a1826b, type: 3}
+    - {fileID: 8300000, guid: a717ea40acc344b89a741f4857617ab5, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.surrender.nostab
+    clips:
+    - {fileID: 8300000, guid: 967c0291bd3cf49919865a948e7c5603, type: 3}
+    - {fileID: 8300000, guid: c1b9a647988944dcb8d5a8f901c816be, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.surrender.ok
+    clips:
+    - {fileID: 8300000, guid: bff0a1a096ffd4e6391961754e147cba, type: 3}
+    - {fileID: 8300000, guid: c7918e9d47e824708b2d6b39a0352c41, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: vo.surrender.stab
+    clips:
+    - {fileID: 8300000, guid: c8d8ffe949b70499d91b92f9dae6a629, type: 3}
+    - {fileID: 8300000, guid: 027c258f09fe841c3993291bf468a88e, type: 3}
+    volume: 1
+    spatial: 1
+    minDistance: 1
+    maxDistance: 25
+    cooldown: 0
+    maxVoices: 1
+    priority: 5
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: win.cheer
+    clips:
+    - {fileID: 8300000, guid: a9b8fc9c7a84f460ba2b4d79e5ab6c53, type: 3}
+    volume: 0.8
+    spatial: 0
+    minDistance: 1
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 2
+    priority: 10
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: win.confetti
+    clips:
+    - {fileID: 8300000, guid: 7444c259d40364e70ad4f56808a14c7a, type: 3}
+    volume: 0.8
+    spatial: 0
+    minDistance: 1
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 2
+    priority: 10
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: win.horn
+    clips:
+    - {fileID: 8300000, guid: fcfe88ce2973141b895f3a934ec40d6d, type: 3}
+    volume: 0.8
+    spatial: 0
+    minDistance: 1
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 2
+    priority: 10
+    lowpassHz: 0
+    pitchJitter: 0
+  - key: win.sting
+    clips:
+    - {fileID: 8300000, guid: 64906a781292045cab1cc862b223d0ff, type: 3}
+    volume: 0.8
+    spatial: 0
+    minDistance: 1
+    maxDistance: 20
+    cooldown: 0
+    maxVoices: 2
+    priority: 10
+    lowpassHz: 0
+    pitchJitter: 0

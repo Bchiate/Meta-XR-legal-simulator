@@ -1,0 +1,807 @@
+{
+ "player": {
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+  "seed": 3,
+  "seconds": 5.36,
+  "description": "A big, broad-chested American man in his late 30s with a deep, resonant baritone voice and a native General American accent, like a veteran police officer",
+  "emotion": "loud and forceful, commanding from the chest, low and steady, controlled, no strain, no voice cracks",
+  "text": "Get down on the ground, right now! Show me your hands! I said get down, do it now!",
+  "heard": "Get down on the ground right now. Show me your hands. I said get down. Do it now.",
+  "asr": 1.0,
+  "passed": true,
+  "gender": {
+   "fli": -0.56,
+   "f0_median": 153,
+   "f0_p90": 219,
+   "vtl_cm": 20.0,
+   "voiced_frac": 0.36,
+   "fli_parts": {
+    "say_ve": -0.77,
+    "neural_ve": -0.27,
+    "neural_cam": -0.64
+   },
+   "why": []
+  },
+  "seeds_tried": [
+   {
+    "seed": 1,
+    "seconds": 7.09,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.71,
+     "f0_median": 175,
+     "f0_p90": 292,
+     "vtl_cm": 17.6,
+     "voiced_frac": 0.41,
+     "fli_parts": {
+      "say_ve": -0.87,
+      "neural_ve": -0.61,
+      "neural_cam": -0.64
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 7.26,
+    "asr": 1.0,
+    "passed": false,
+    "gender": {
+     "fli": -0.73,
+     "f0_median": 274,
+     "f0_p90": 313,
+     "vtl_cm": 19.1,
+     "voiced_frac": 0.41,
+     "fli_parts": {
+      "say_ve": -0.8,
+      "neural_ve": -0.74,
+      "neural_cam": -0.65
+     },
+     "why": [
+      "reference F0 274 Hz > 175 Hz"
+     ]
+    }
+   },
+   {
+    "seed": 3,
+    "seconds": 5.36,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.56,
+     "f0_median": 153,
+     "f0_p90": 219,
+     "vtl_cm": 20.0,
+     "voiced_frac": 0.36,
+     "fli_parts": {
+      "say_ve": -0.77,
+      "neural_ve": -0.27,
+      "neural_cam": -0.64
+     },
+     "why": []
+    }
+   }
+  ]
+ },
+ "attacker": {
+  "from": "tts_bakeoff/refs/attacker_shout.wav",
+  "description": "A big American man in his 40s with a deep, gravelly, rough street voice",
+  "emotion": "snarling, menacing, shouting loudly",
+  "text": "You hear me? You're dead! I'm gonna make you pay for this. Get over here, right now!"
+ },
+ "knife": {
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+  "seed": 1,
+  "seconds": 7.19,
+  "description": "A lean American man in his early 30s with a low, raspy, cold voice and a slight hiss on his s's",
+  "emotion": "cold, menacing, snarling through his teeth, getting louder",
+  "text": "You shouldn't have come down here. Nobody's gonna hear you. You're dead, you hear me? Dead!",
+  "heard": "You shouldn't have come down here. Nobody's gonna hear you. You're dead, you hear me? Dead.",
+  "asr": 1.0,
+  "passed": true
+ },
+ "burglar": {
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+  "seed": 3,
+  "seconds": 7.56,
+  "description": "A wiry American man in his late 20s with a scratchy, mid-low, clearly masculine voice and a chesty tone",
+  "emotion": "scared and breathless, talking fast, but his voice stays low in his chest, no voice cracks",
+  "text": "Whoa, whoa, okay, I'm sorry, I'm sorry! I didn't touch anything, I swear, just let me go, please!",
+  "heard": "Whoa, okay. I'm sorry, I'm sorry. I didn't touch anything. I swear. Just let me go, please.",
+  "asr": 0.98,
+  "passed": true,
+  "gender": {
+   "fli": -0.68,
+   "f0_median": 156,
+   "f0_p90": 233,
+   "vtl_cm": 18.0,
+   "voiced_frac": 0.49,
+   "fli_parts": {
+    "say_ve": -0.29,
+    "neural_ve": -1.02,
+    "neural_cam": -0.72
+   },
+   "why": []
+  },
+  "seeds_tried": [
+   {
+    "seed": 1,
+    "seconds": 8.01,
+    "asr": 0.95,
+    "passed": true,
+    "gender": {
+     "fli": -0.52,
+     "f0_median": 287,
+     "f0_p90": 393,
+     "vtl_cm": 17.4,
+     "voiced_frac": 0.6,
+     "fli_parts": {
+      "say_ve": -0.29,
+      "neural_ve": -0.71,
+      "neural_cam": -0.55
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 7.82,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.64,
+     "f0_median": 190,
+     "f0_p90": 274,
+     "vtl_cm": 15.9,
+     "voiced_frac": 0.34,
+     "fli_parts": {
+      "say_ve": -0.05,
+      "neural_ve": -0.96,
+      "neural_cam": -0.91
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 3,
+    "seconds": 7.56,
+    "asr": 0.98,
+    "passed": true,
+    "gender": {
+     "fli": -0.68,
+     "f0_median": 156,
+     "f0_p90": 233,
+     "vtl_cm": 18.0,
+     "voiced_frac": 0.49,
+     "fli_parts": {
+      "say_ve": -0.29,
+      "neural_ve": -1.02,
+      "neural_cam": -0.72
+     },
+     "why": []
+    }
+   }
+  ],
+  "gender_saved_file": {
+   "fli": -0.63,
+   "f0_median": 156,
+   "f0_p90": 233,
+   "vtl_cm": 18.0,
+   "voiced_frac": 0.49,
+   "fli_parts": {
+    "say_ve": -0.24,
+    "neural_ve": -0.93,
+    "neural_cam": -0.72
+   }
+  }
+ },
+ "gunman": {
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+  "seed": 1,
+  "seconds": 5.81,
+  "description": "A stocky American man in his late 30s with a hard, clipped, harsh voice and a tough East Coast city accent",
+  "emotion": "hard, clipped, aggressive, barking orders",
+  "text": "Don't move! Where's the money? Don't you look at me! Get down, now, or I swear I'll shoot you!",
+  "heard": "Don't move! Where's the money? Don't you look at me! Get down now, or I swear I'll shoot you!",
+  "asr": 1.0,
+  "passed": true
+ },
+ "mike": {
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+  "seed": 1,
+  "seconds": 11.1,
+  "description": "A heavyset American man in his 50s with a low, husky, beer-soaked baritone voice",
+  "emotion": "drunk and slurring, friendly, fairly loud, a little startled",
+  "text": "Hey! Hey buddy, it's me, Mike, from next door! Whoa, easy, easy, it's just me. I think I got the wrong house again.",
+  "heard": "Hey. Hey, buddy. It's me, Mike, from next door. Whoa, easy, easy. It's just me. I think I got the wrong house again.",
+  "asr": 1.0,
+  "passed": true,
+  "gender": {
+   "fli": -0.73,
+   "f0_median": 123,
+   "f0_p90": 193,
+   "vtl_cm": 17.2,
+   "voiced_frac": 0.44,
+   "fli_parts": {
+    "say_ve": -0.7,
+    "neural_ve": -0.71,
+    "neural_cam": -0.78
+   },
+   "why": []
+  },
+  "seeds_tried": [
+   {
+    "seed": 1,
+    "seconds": 11.1,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.73,
+     "f0_median": 123,
+     "f0_p90": 193,
+     "vtl_cm": 17.2,
+     "voiced_frac": 0.44,
+     "fli_parts": {
+      "say_ve": -0.7,
+      "neural_ve": -0.71,
+      "neural_cam": -0.78
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 11.69,
+    "asr": 0.96,
+    "passed": false,
+    "gender": {
+     "fli": -0.32,
+     "f0_median": 214,
+     "f0_p90": 311,
+     "vtl_cm": 14.9,
+     "voiced_frac": 0.59,
+     "fli_parts": {
+      "say_ve": 0.07,
+      "neural_ve": -0.58,
+      "neural_cam": -0.46
+     },
+     "why": [
+      "VTL 14.9 cm < 15.5 with F0 214 Hz and FLI -0.32",
+      "reference FLI -0.32 > -0.45"
+     ]
+    }
+   },
+   {
+    "seed": 3,
+    "seconds": 13.77,
+    "asr": 0.94,
+    "passed": false,
+    "gender": {
+     "fli": -0.65,
+     "f0_median": 125,
+     "f0_p90": 180,
+     "vtl_cm": 17.3,
+     "voiced_frac": 0.42,
+     "fli_parts": {
+      "say_ve": -0.75,
+      "neural_ve": -0.79,
+      "neural_cam": -0.41
+     },
+     "why": []
+    }
+   }
+  ],
+  "gender_saved_file": {
+   "fli": -0.72,
+   "f0_median": 123,
+   "f0_p90": 193,
+   "vtl_cm": 17.2,
+   "voiced_frac": 0.44,
+   "fli_parts": {
+    "say_ve": -0.69,
+    "neural_ve": -0.68,
+    "neural_cam": -0.78
+   }
+  }
+ },
+ "police": {
+  "from": "tts_bakeoff/refs/police_calm.wav",
+  "description": "A bored male American police officer in his 50s with a flat, clipped, deadpan voice",
+  "emotion": "flat, bored, deadpan, projecting loudly outdoors",
+  "text": "This is the police. We need you to come out of the house slowly, with your hands where we can see them."
+ },
+ "retired": {
+  "burglar_20260924-1913": {
+   "from": "tts_bakeoff/refs/burglar_scared.wav",
+   "description": "A wiry American man in his early 20s with a slightly nasal, jittery, high-strung voice",
+   "emotion": "terrified, panicked, breathless, voice cracking",
+   "text": "Whoa, whoa, okay, I'm sorry, I'm sorry! I didn't touch anything, I swear, just let me go, please!",
+   "gender_at_retirement": {
+    "fli": -0.08,
+    "f0_median": 337,
+    "f0_p90": 441,
+    "vtl_cm": 16.0,
+    "voiced_frac": 0.65,
+    "fli_parts": {
+     "say_ve": 0.25,
+     "neural_ve": -0.38,
+     "neural_cam": -0.1
+    }
+   }
+  },
+  "mike_20260924-1914": {
+   "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+   "seed": 1,
+   "seconds": 10.36,
+   "description": "A friendly middle-aged American man, beer-drunk, thick-tongued and a little slow",
+   "emotion": "drunk and slurring, friendly, fairly loud, a little startled",
+   "text": "Hey! Hey buddy, it's me, Mike, from next door! Whoa, easy, easy, it's just me. I think I got the wrong house again.",
+   "heard": "Hey, hey buddy, it's me, Mike, from next door. Whoa, easy, easy, it's just me. I think I got the wrong house again.",
+   "asr": 1.0,
+   "passed": true,
+   "gender_at_retirement": {
+    "fli": -0.26,
+    "f0_median": 309,
+    "f0_p90": 435,
+    "vtl_cm": 14.9,
+    "voiced_frac": 0.75,
+    "fli_parts": {
+     "say_ve": -0.16,
+     "neural_ve": -0.48,
+     "neural_cam": -0.14
+    }
+   }
+  },
+  "player_20260925-2257": {
+   "from": "tts_bakeoff/refs/player_shout.wav",
+   "description": "A man in his early 30s with a firm, mid-low voice and a native General American accent",
+   "emotion": "shouting at full volume, commanding, adrenaline",
+   "text": "Get down on the ground, right now! Show me your hands! I said get down, do it now!",
+   "gender_at_retirement": {
+    "fli": -0.63,
+    "f0_median": 303,
+    "f0_p90": 369,
+    "vtl_cm": 17.1,
+    "voiced_frac": 0.44,
+    "fli_parts": {
+     "say_ve": -0.58,
+     "neural_ve": -0.65,
+     "neural_cam": -0.65
+    }
+   }
+  },
+  "sal_20261003-0203": {
+   "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+   "seed": 2,
+   "seconds": 5.9,
+   "description": "A heavyset American man in his late 40s with a rough, working-class baritone voice",
+   "emotion": "gruff and casual, a little impatient, speaking up to be heard through a door",
+   "text": "Ricky? It's Sal. Open up, it's freezing out here. Come on, man, I brought you some smokes. Open the door.",
+   "heard": "Ricky, it's Sal. Open up, it's freezing out here. Come on, man, I brought you some smokes. Open the door.",
+   "asr": 1.0,
+   "passed": true,
+   "gender": {
+    "fli": -0.54,
+    "f0_median": 196,
+    "f0_p90": 257,
+    "vtl_cm": 17.9,
+    "voiced_frac": 0.3,
+    "fli_parts": {
+     "say_ve": -0.73,
+     "neural_ve": -0.63,
+     "neural_cam": -0.25
+    },
+    "why": []
+   },
+   "seeds_tried": [
+    {
+     "seed": 1,
+     "seconds": 7.57,
+     "asr": 1.0,
+     "passed": true,
+     "gender": {
+      "fli": -0.52,
+      "f0_median": 186,
+      "f0_p90": 228,
+      "vtl_cm": 16.9,
+      "voiced_frac": 0.27,
+      "fli_parts": {
+       "say_ve": -0.46,
+       "neural_ve": -0.69,
+       "neural_cam": -0.41
+      },
+      "why": []
+     }
+    },
+    {
+     "seed": 2,
+     "seconds": 5.9,
+     "asr": 1.0,
+     "passed": true,
+     "gender": {
+      "fli": -0.54,
+      "f0_median": 196,
+      "f0_p90": 257,
+      "vtl_cm": 17.9,
+      "voiced_frac": 0.3,
+      "fli_parts": {
+       "say_ve": -0.73,
+       "neural_ve": -0.63,
+       "neural_cam": -0.25
+      },
+      "why": []
+     }
+    },
+    {
+     "seed": 3,
+     "seconds": 7.89,
+     "asr": 1.0,
+     "passed": false,
+     "gender": {
+      "fli": -0.29,
+      "f0_median": 146,
+      "f0_p90": 223,
+      "vtl_cm": 16.8,
+      "voiced_frac": 0.43,
+      "fli_parts": {
+       "say_ve": -0.23,
+       "neural_ve": -0.48,
+       "neural_cam": -0.15
+      },
+      "why": [
+       "FLI -0.29 > -0.30",
+       "reference FLI -0.29 > -0.45"
+      ]
+     }
+    }
+   ],
+   "gender_at_retirement": {
+    "fli": -0.54,
+    "f0_median": 196,
+    "f0_p90": 257,
+    "vtl_cm": 17.9,
+    "voiced_frac": 0.3,
+    "fli_parts": {
+     "say_ve": -0.73,
+     "neural_ve": -0.63,
+     "neural_cam": -0.25
+    }
+   }
+  }
+ },
+ "ricky": {
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+  "seed": 1,
+  "seconds": 8.22,
+  "description": "A nervous American man in his early 40s with a low, raspy smoker's baritone voice",
+  "emotion": "anxious but low in the chest, quiet and tense, no voice cracks",
+  "text": "Who's that? Nobody's supposed to know I'm here. Okay, okay, I'm down. I'm staying down. Just get me to Monday.",
+  "heard": "Who's that? Nobody's supposed to know I'm here. Okay, okay, I'm down, I'm staying down. Just get me to Monday.",
+  "asr": 1.0,
+  "passed": true,
+  "gender": {
+   "fli": -0.46,
+   "f0_median": 102,
+   "f0_p90": 142,
+   "vtl_cm": 16.9,
+   "voiced_frac": 0.49,
+   "fli_parts": {
+    "say_ve": -0.3,
+    "neural_ve": -0.59,
+    "neural_cam": -0.48
+   },
+   "why": []
+  },
+  "seeds_tried": [
+   {
+    "seed": 1,
+    "seconds": 8.22,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.46,
+     "f0_median": 102,
+     "f0_p90": 142,
+     "vtl_cm": 16.9,
+     "voiced_frac": 0.49,
+     "fli_parts": {
+      "say_ve": -0.3,
+      "neural_ve": -0.59,
+      "neural_cam": -0.48
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 9.35,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.64,
+     "f0_median": 110,
+     "f0_p90": 145,
+     "vtl_cm": 17.6,
+     "voiced_frac": 0.22,
+     "fli_parts": {
+      "say_ve": -0.69,
+      "neural_ve": -0.68,
+      "neural_cam": -0.54
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 3,
+    "seconds": 10.0,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.56,
+     "f0_median": 115,
+     "f0_p90": 144,
+     "vtl_cm": 17.6,
+     "voiced_frac": 0.33,
+     "fli_parts": {
+      "say_ve": -0.71,
+      "neural_ve": -0.5,
+      "neural_cam": -0.46
+     },
+     "why": []
+    }
+   }
+  ]
+ },
+ "sal": {
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+  "seed": 3,
+  "seconds": 10.17,
+  "description": "A heavyset American man in his late 40s with a rough, working-class baritone voice",
+  "emotion": "gruff and casual, a little impatient, low in the chest, no strain",
+  "text": "Ricky? It's Sal. Open up, it's freezing out here. Come on, man, I brought you some smokes. Open the door.",
+  "heard": "Ricky, it's Sal. Open up. It's freezing out here. Come on, man. I brought you some smokes. Open the door.",
+  "asr": 1.0,
+  "passed": true,
+  "gender": {
+   "fli": -0.66,
+   "f0_median": 194,
+   "f0_p90": 226,
+   "vtl_cm": 17.3,
+   "voiced_frac": 0.53,
+   "fli_parts": {
+    "say_ve": -0.45,
+    "neural_ve": -1.0,
+    "neural_cam": -0.54
+   },
+   "why": []
+  },
+  "seeds_tried": [
+   {
+    "seed": 1,
+    "seconds": 8.41,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.58,
+     "f0_median": 111,
+     "f0_p90": 129,
+     "vtl_cm": 16.9,
+     "voiced_frac": 0.3,
+     "fli_parts": {
+      "say_ve": -0.58,
+      "neural_ve": -0.67,
+      "neural_cam": -0.5
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 9.52,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.64,
+     "f0_median": 145,
+     "f0_p90": 183,
+     "vtl_cm": 17.6,
+     "voiced_frac": 0.33,
+     "fli_parts": {
+      "say_ve": -0.57,
+      "neural_ve": -0.78,
+      "neural_cam": -0.58
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 3,
+    "seconds": 10.17,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.66,
+     "f0_median": 194,
+     "f0_p90": 226,
+     "vtl_cm": 17.3,
+     "voiced_frac": 0.53,
+     "fli_parts": {
+      "say_ve": -0.45,
+      "neural_ve": -1.0,
+      "neural_cam": -0.54
+     },
+     "why": []
+    }
+   }
+  ]
+ },
+ "deputy": {
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+  "seed": 1,
+  "seconds": 10.42,
+  "description": "A tired American lawman in his 40s with a flat, low, calm voice",
+  "emotion": "tired and calm, flat and matter-of-fact, steady, low",
+  "text": "Marshals. It's Ortiz, I'm coming in. Everything quiet tonight? Good. Relief's at two. Lock it behind me.",
+  "heard": "Marshalls. It's Ortiz. I'm coming in. Everything quiet tonight? Good. Relief's at two. Lock it behind me.",
+  "asr": 0.95,
+  "passed": true,
+  "gender": {
+   "fli": -0.49,
+   "f0_median": 97,
+   "f0_p90": 140,
+   "vtl_cm": 16.7,
+   "voiced_frac": 0.37,
+   "fli_parts": {
+    "say_ve": -0.73,
+    "neural_ve": -0.5,
+    "neural_cam": -0.24
+   },
+   "why": []
+  },
+  "seeds_tried": [
+   {
+    "seed": 1,
+    "seconds": 10.42,
+    "asr": 0.95,
+    "passed": true,
+    "gender": {
+     "fli": -0.49,
+     "f0_median": 97,
+     "f0_p90": 140,
+     "vtl_cm": 16.7,
+     "voiced_frac": 0.37,
+     "fli_parts": {
+      "say_ve": -0.73,
+      "neural_ve": -0.5,
+      "neural_cam": -0.24
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 9.84,
+    "asr": 0.95,
+    "passed": true,
+    "gender": {
+     "fli": -0.49,
+     "f0_median": 101,
+     "f0_p90": 114,
+     "vtl_cm": 17.8,
+     "voiced_frac": 0.35,
+     "fli_parts": {
+      "say_ve": -0.9,
+      "neural_ve": -0.41,
+      "neural_cam": -0.17
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 3,
+    "seconds": 9.63,
+    "asr": 1.0,
+    "passed": true,
+    "gender": {
+     "fli": -0.46,
+     "f0_median": 99,
+     "f0_p90": 120,
+     "vtl_cm": 16.9,
+     "voiced_frac": 0.38,
+     "fli_parts": {
+      "say_ve": -1.03,
+      "neural_ve": -0.25,
+      "neural_cam": -0.11
+     },
+     "why": []
+    }
+   }
+  ]
+ },
+ "operator": {
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-VoiceDesign-bf16",
+  "seed": 1,
+  "seconds": 10.09,
+  "description": "An American man in his 40s with a quiet, flat, very low voice, an ex-military professional",
+  "emotion": "quiet, clipped and cold, no emotion, very low and controlled",
+  "text": "Contact front. Two moving, stay on my left. Find the witness. Check every room. Reloading. Covering. Go.",
+  "heard": "Contact front. Two movings stay on my left. Find the witness. Check every room. Reloading. Covering. Go.",
+  "asr": 0.94,
+  "passed": true,
+  "gender": {
+   "fli": -0.47,
+   "f0_median": 87,
+   "f0_p90": 109,
+   "vtl_cm": 17.3,
+   "voiced_frac": 0.37,
+   "fli_parts": {
+    "say_ve": -0.84,
+    "neural_ve": -0.11,
+    "neural_cam": -0.46
+   },
+   "why": []
+  },
+  "seeds_tried": [
+   {
+    "seed": 1,
+    "seconds": 10.09,
+    "asr": 0.94,
+    "passed": true,
+    "gender": {
+     "fli": -0.47,
+     "f0_median": 87,
+     "f0_p90": 109,
+     "vtl_cm": 17.3,
+     "voiced_frac": 0.37,
+     "fli_parts": {
+      "say_ve": -0.84,
+      "neural_ve": -0.11,
+      "neural_cam": -0.46
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 2,
+    "seconds": 10.4,
+    "asr": 0.94,
+    "passed": true,
+    "gender": {
+     "fli": -0.46,
+     "f0_median": 105,
+     "f0_p90": 131,
+     "vtl_cm": 16.2,
+     "voiced_frac": 0.35,
+     "fli_parts": {
+      "say_ve": -0.54,
+      "neural_ve": -0.4,
+      "neural_cam": -0.43
+     },
+     "why": []
+    }
+   },
+   {
+    "seed": 3,
+    "seconds": 10.58,
+    "asr": 0.94,
+    "passed": false,
+    "gender": {
+     "fli": -0.38,
+     "f0_median": 97,
+     "f0_p90": 115,
+     "vtl_cm": 16.7,
+     "voiced_frac": 0.38,
+     "fli_parts": {
+      "say_ve": -0.51,
+      "neural_ve": -0.4,
+      "neural_cam": -0.23
+     },
+     "why": [
+      "reference FLI -0.38 > -0.45"
+     ]
+    }
+   }
+  ]
+ }
+}
